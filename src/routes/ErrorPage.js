@@ -6,7 +6,7 @@ export default function ErrorPage() {
   console.error(error);
 
   return (
-    <div id="error-page">
+    <div id="error-page" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
       <h1>Oh noo!</h1>
       <p>This is an Error Page.</p>
       <p>

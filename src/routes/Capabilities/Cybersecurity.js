@@ -7,7 +7,8 @@ function Cybersecurity() {
       <div className="homebg" style={{height:"auto"}}>
         <h1 className="header"style={{color:"white"}}>Cybersecurity Solutions</h1>
       </div>
-      <div className="container mt-3"> 
+      <br/>
+      <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
                 <img src={pic2} alt='Service' className=" pic col-sm-6   p-3"></img>
                 <div className="col-sm-6  text-white p-3">
@@ -68,6 +69,7 @@ function Cybersecurity() {
                         
             </div>
         </div>
+        <br/>
     </div>
   );
 }

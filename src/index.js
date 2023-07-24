@@ -23,6 +23,7 @@ import Technologies from "./routes/Services/Technologies";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 // import { FaArrowAltCircleUp } from "react-icons/fa";
 
 
@@ -44,7 +45,7 @@ const AppLayout = () => {
       <div class="container-fluid footer" style={{backgroundColor:"#080710",height:"auto",width:"auto"}}>
 <div class="row" style={{marginLeft:"30px",marginRight:"30px"}}>
     <div class="col" >
-        <p className="Deep">DEEPLOGIC'S</p>
+        <p > <Link to="/" className="Deed">DEEPLOGIC'S</Link></p>
         {/* <img src={flog}/> */}
         <p className="text">Deeplogics Labs Corp. 
         With over two decades of I.T and security consulting experience, 
@@ -110,7 +111,8 @@ Data Analytics</p></div>
                 <div style={{marginLeft:"50px"}}>
                     <h6>© 2007-2023 Deeplogics Labs Corp. , All Rights Reserved.</h6>
                 </div>
-                
+      <ScrollToTopButton/>
+
     </>
   );
 };

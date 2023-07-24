@@ -6,7 +6,9 @@ function Logistics() {
     <div className="homebg" style={{height:"auto"}}>
 <h1 className="header"style={{color:"white"}}>Deeplogics Logistics</h1>
 </div>
-<div className="container-fluid "> 
+<br/>
+
+<div className="container-fluid " style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
        <img src={Logistic} style={{margin:"auto",top:"0",height:"250px",width:"500px"}} alt='Energy' className="col-lg"/>
        <div className="col-lg">
@@ -21,6 +23,7 @@ function Logistics() {
        </div>
    </div>
 </div>
+<br/>
 
 </>
   );

@@ -6,18 +6,29 @@ import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
 import Logo from "./Assets/logoo png.png"
 
-function Navbar() {
-  const [click, setClick] = useState(false);
 
+const Navbar = () =>{
+  const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
- 
 
+
+  // const [navbar,setNavbar] = useState(false);
+  // const changeBackground =() =>{
+  //   if(window.scrollY>=60) {
+  //    setNavbar(true)
+  //   }
+  //   else{
+  //     setNavbar(false)
+  //   }
+  // }
+  // window.addEventListener('scroll',changeBackground);
 
   return (
     <>
       <IconContext.Provider value={{ color: "#000000" }}>
-        <nav className="navbar">
+        {/* <nav className={navbar?'navbar active':"navbar"}> */}
+        <nav className='navbar active'>
           <div className="navbar-con containernav fs-6">
             <Link to="/" className="navbar-logo navbar-icon" onClick={closeMobileMenu}>
               <img class="png" src={Logo}alt="Deeplogics"/>

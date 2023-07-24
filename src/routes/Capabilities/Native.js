@@ -6,7 +6,8 @@ const Native =() =>{
              <div className="homebg" style={{height:"auto"}}>
         <h1 className="header" style={{color:"white"}}>Native Mobile Solutions</h1>
       </div>
-        <div className="container-fluid "> 
+      <br/>
+        <div className="container-fluid " style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
                 <img src={nat} style={{margin:"auto",top:"0",height:"250px",width:"500px"}} alt='About Us' className="col-lg"/>
                 <div className="col-lg">
@@ -31,6 +32,7 @@ const Native =() =>{
                 </div>
             </div>
         </div>
+        <br/>
          </>
     );
 }

@@ -6,7 +6,7 @@ function Technologies() {
     <div className="homebg" style={{height:"auto"}}>
 <h1 className="header"style={{color:"white"}}>Deeplogics Technologies</h1>
 </div>
-<div className="container-fluid "> 
+<div className="container-fluid " style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
        <img src={tech} style={{margin:"auto",top:"0",height:"250px",width:"500px"}} alt='Energy' className="col-lg"/>
        <div className="col-lg">
@@ -29,6 +29,8 @@ function Technologies() {
        </div>
    </div>
 </div>
+<br/>
+
 </>
   );
 }

@@ -3,8 +3,16 @@ import { useState } from 'react';
 import pho from './Assets/phone.gif'
 import location from './Assets/location.gif'
 import ema from './Assets/email.gif'
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 
 const Contact = () =>{
+
+
+	// constructor(props) 
+	// 	super(props);
+	// 	this.state = { phone: "" };
+	
   
   const [userData,setUserDate]=useState([]);
   const [name,setName]=useState('');
@@ -31,13 +39,14 @@ const Contact = () =>{
     <div className="homebg" style={{height:"auto"}}>
             <h1 className="header" style={{color:"white"}}>Contact Us</h1>
     </div>
-    <div className="container">
+    <br/>
+    <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
     <div className="row">
     <div className="col-sm-6">
     <div className="login-wrap">
         <div className="login-html">
 
-          <div className="Contact"  />
+          <div className="Contact"/>
 
       <div className="login-form">
        <div className="Contact-htm">
@@ -47,7 +56,8 @@ const Contact = () =>{
              </div>
                  <div className="group">
                    <label htmlFor="user" className="label">Phone</label>
-                   <input type="number" className="input" value={phone}  onChange={(e)=>setPhone(e.target.value)}/>
+                   {/* <div  value={phone}  onChange={(e)=>setPhone(e.target.value)} style={{color:"#000000"}}><PhoneInput/></div> */}
+                   <input className="input" value={phone}  onChange={(e)=>setPhone(e.target.value)}/>
                  </div>
                  <div className="group">
                    <label htmlFor="pass" className="label">Email Address</label>
@@ -95,6 +105,10 @@ const Contact = () =>{
     </div>
     </div>
     {/* </div> */}
+    <br/>
+			
+		
+
     </>
   );
 }

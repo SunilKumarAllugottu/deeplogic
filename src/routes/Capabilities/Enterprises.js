@@ -6,7 +6,8 @@ const Enterprises =() =>{
              <div className="homebg" style={{height:"auto"}}>
         <h1 className="header"style={{color:"white"}}>Enterprise Mobility Solutions</h1>
       </div>
-        <div className="container-fluid "> 
+      <br/>
+        <div className="container-fluid " style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}>          
             <div className="row">
                 <img src={wea} style={{margin:"auto",top:"0",height:"350px",width:"500px"}} alt='werable Tech' className="col-lg"/>
                 <div className="col-lg">
@@ -32,6 +33,7 @@ const Enterprises =() =>{
                 </div>
             </div>
         </div>
+        <br/>
          </>
     );
 }

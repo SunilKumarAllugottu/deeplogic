@@ -6,9 +6,10 @@ const Wearable =() =>{
              <div className="homebg" style={{height:"auto"}}>
         <h1 className="header" style={{color:"white"}}>Wearable Technologie</h1>
       </div>
-        <div className="container-fluid "> 
+      <br/>
+        <div className="container-fluid " style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-                <img src={wea} style={{margin:"auto",top:"0",height:"350px",width:"500px",}} alt='werable Tech' className="col-lg"/>
+                <img src={wea} style={{margin:"auto",top:"0",height:"350px",width:"500px"}} alt='werable Tech' className="col-lg"/>
                 <div className="col-lg">
 
                 <p className="con"><b>Deeplogics Labs Corp.</b> is the world’s fastest growing mobility company, developed more than 150+ result-oriented mobile apps and games for businesses of all sorts and all scales across the world. Following successfully delivering cloud computing solutions, Deeplogics Labs Corp. has stepped forward to create innovative wearable solutions to enhance your business performance.
@@ -22,6 +23,7 @@ const Wearable =() =>{
                 </div>
             </div>
         </div>
+        <br/>
          </>
     );
 }

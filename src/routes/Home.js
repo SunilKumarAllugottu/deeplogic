@@ -75,7 +75,7 @@ function Home() {
         <br/><br/><br/>
 
 
-        <div className='body' style={{borderRadius:"50px",boxShadow:"0 2.5px 10px #F0F8FF"}} >
+        <div className='body' style={{backgroundColor:'#F0F8FF',borderRadius:"50px",boxShadow:"0 2.5px 10px #F0F8FF"}} >
       <Swiper 
       //  slidesPerView={1.5}
         // spaceBetween={-150}
