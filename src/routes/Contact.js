@@ -3,7 +3,7 @@ import { useState } from 'react';
 import pho from './Assets/phone.gif'
 import location from './Assets/location.gif'
 import ema from './Assets/email.gif'
-import PhoneInput from 'react-phone-input-2'
+// import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 
 const Contact = () =>{
@@ -14,7 +14,7 @@ const Contact = () =>{
 	// 	this.state = { phone: "" };
 	
   
-  const [userData,setUserDate]=useState([]);
+  const [userData]=useState([]);
   const [name,setName]=useState('');
   const [email,setEmail]=useState('');
   const [phone,setPhone]=useState('');
@@ -43,6 +43,7 @@ const Contact = () =>{
     <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
     <div className="row">
     <div className="col-sm-6">
+      <br/>
     <div className="login-wrap">
         <div className="login-html">
 
@@ -76,6 +77,7 @@ const Contact = () =>{
           </div>
         </div>
       </div>
+      <br/>
       </div>
 
                 <div className='col-sm-6'>

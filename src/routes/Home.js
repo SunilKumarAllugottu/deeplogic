@@ -22,7 +22,7 @@ function Home() {
     <>
     <div className="homebg"  style={{height:"auto"}}>
     <div  className="container" style={{padding:"80px"}} > 
-            {/* <img src={banner} style={{margin:"0",width:"970px"}}></img> */}
+            {/* <img src={banner} style={{margin:"0",width:"970px"}}/> */}
                 <div className="col" >
                     <h4 style={{color:"white",}}>Deeplogics Labs Corp.</h4>
                     <h3 style={{color:"white",fontSize:"25px"}}>Cyber Security Solutions.</h3>
@@ -35,7 +35,7 @@ function Home() {
              </div>
      <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-                <img src={partner} alt='About Us' className="col-sm-6  text-white p-3"></img>
+                <img src={partner}  style={{borderRadius:"50px"}} alt='About Us' className="col-sm-6  text-white p-3"/>
                 <div className="col-sm-6  text-white p-3">
                   <h5 className="lean">Your premier partner for IT and Cyber Security Solutions</h5>
                   <h6 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h6>
@@ -58,7 +58,7 @@ function Home() {
 
                 </p>
             </div>
-                <img src={testing} alt='testing' className="col-sm-6  text-white p-3"></img>
+                <img src={testing} style={{borderRadius:"50px"}} alt='testing' className="col-sm-6  text-white p-3"/>
             </div>
         </div>
         <br/><br/><br/>
@@ -209,7 +209,7 @@ function Home() {
         </div>
         <br/><br/><br/>
   
-                  <div >
+                  <div  className="container">
                        <div className="row">
                          
                        
@@ -264,6 +264,7 @@ function Home() {
                   <div className="col-md "><div className="container2">
                      <div className="card2" >
                        <h3 className="v moon"> Software assets</h3>
+                       <br/>
                        <p className="small c sun ">All aspects of your software assets including purchasing, deployment & maintenance.</p>
                        <div className="go-corner2">
                          <Link className="go-arrow2 btn" to="/home">
@@ -276,6 +277,7 @@ function Home() {
                   <div className="col-md ">   <div className="container2">
                      <div className="card2" >
                        <h3 className="v moon">Privileged Access</h3>
+                       <br/>
                        <p className="small c sun">Extend proven Tech best practices to HR, finance, and other service delivery areas.</p>
                        <div className="go-corner2">
                          <Link className="go-arrow2 btn" to="/home">
@@ -288,6 +290,7 @@ function Home() {
                   <div className="col-md "><div className="container2">
                      <div className="card2" >
                        <h3 className="v moon">Software License</h3>
+                       <br/>
                        <p className="small c sun">Build dynamic request templates with associated workflows, and tasks.</p>
                        <div className="go-corner2">
                          <Link className="go-arrow2 btn" to="/home">
@@ -301,6 +304,7 @@ function Home() {
                     <div className="container2">
                      <div className="card2" >
                        <h3 className="v moon">Enterprise Service</h3>
+                       <br/>
                        <p className="small c sun">Our technology allows you to offer the latest software to your possible customers!</p>
                        <div className="go-corner2">
                          <Link className="go-arrow2 btn" to="/home">
@@ -320,7 +324,7 @@ function Home() {
 
         <div className="container mt-3"   style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-            <img src={homebg4} alt='About Us' className="col-sm-6  text-white p-3"></img>
+            <img src={homebg4} alt='About Us' className="col-sm-6  text-white p-3" style={{borderRadius:"50px"}}/>
 
                 <div className="col-sm-6  text-white p-3">
                   <h5 className="lean" style={{textAlign:"center",marginTop:"60px"}}>Timely Service, And Incident Resolutions!!</h5>
@@ -337,5 +341,4 @@ function Home() {
 
      </> );
 }
-
 export default Home;

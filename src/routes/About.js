@@ -10,7 +10,7 @@ const AboutUs = () =>{
 
         <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-                <img src={pic1} style={{height:"300px",width:"300px",margin:"auto",top:"0",}} alt='About Us' className="col-sm-6   p-3"/>
+                <img src={pic1} style={{height:"300px",width:"300px",margin:"auto",top:"0"}} alt='About Us' className="col-sm-6   p-3"/>
                 <div className="col-sm-6  text-white p-3">
                   <h5 className="lean">Timely Service Delivery & Incident Resolutions!!</h5>
                   <h6 className="bold">YOUR CYBERSECURITY PARTNER</h6>
