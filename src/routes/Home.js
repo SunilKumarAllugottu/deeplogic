@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Pagination, Navigation, HashNavigation } from 'swiper/modules';
+import {Autoplay, Pagination, Navigation, HashNavigation } from 'swiper/modules';
 import uiux from "./Assets/computer.gif"
 import dms from './Assets/network.gif'
 import cc from './Assets/cloud-network.gif'
@@ -15,11 +15,19 @@ import homebg4 from './Assets/3573741.jpg'
 import testing from './Assets/pen-testing-compliance_1.jpg';
 import partner from './Assets/bg-web.jpg';
 // import banner from './Assets/Cybersecurity banner.png'
+import uibg from './Assets/UI.png'
+import aibg from './Assets/Ai.png'
+import cloudbg from './Assets/Cloudbg.png'
+import itbg from './Assets/ITbg.png'
+import mlbg from './Assets/MLbg.png'
+import dmsbg from './Assets/Dmsbg.png'
 
 
 function Home() {
+
   return (
     <>
+    
     <div className="homebg"  style={{height:"auto"}}>
     <div  className="container" style={{padding:"80px"}} > 
             {/* <img src={banner} style={{margin:"0",width:"970px"}}/> */}
@@ -74,11 +82,12 @@ function Home() {
 
         <br/><br/><br/>
 
-
-        <div className='body' style={{backgroundColor:'#F0F8FF',borderRadius:"50px",boxShadow:"0 2.5px 10px #F0F8FF"}} >
+           
+         <div className='body' style={{backgroundColor:'#F0F8FF',borderRadius:"50px",boxShadow:"0 2.5px 10px #F0F8FF"}} >
       <Swiper 
       //  slidesPerView={1.5}
         // spaceBetween={-150}
+        // direction={'vertical'}
         breakpoints={{
           // when window width is >= 640px
           640: {
@@ -92,20 +101,26 @@ function Home() {
         }}
       
         // hashNavigation={{ watchState: true,}}
+        centeredSlides={true}
+        autoplay={{
+          delay: 9000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
+        rewind={true}
         navigation={true}
-        modules={[Pagination, Navigation, HashNavigation]}
+        modules={[ Autoplay,Pagination, Navigation, HashNavigation]}
         className="mySwiper "
       >
         <SwiperSlide data-hash="slide1">
 
         <div className = "container1">
     
-    <div className = "card1">
+    <div className = "card1" style={{backgroundImage:`url(${cloudbg})`}}>
       <div className = "image1">
-        <img  className="img1" src = {cc} alt="CLOUD"/><p>CLOUD COMPUTING</p>
+        <img  className="img1" src = {cc} alt="CLOUD"/><p className="leo">CLOUD COMPUTING</p>
       </div>
       <div className = "content1">
         <p>Whether you are drawing up a Cloud Strategy, considering migrating some applications to the Cloud, automating repetitive Cloud tasks, implementing SysOps, DevOps, or setting up a ‘born in the Cloud’ business application.</p>
@@ -120,9 +135,9 @@ function Home() {
 
           <div className = "container1">
     
-    <div className = "card1">
-      <div className = "image1">
-        <img  className="img1" src = {ai} alt="AI"/><p>AIRTIFICIAL INTELLIGENCE</p>
+    <div className = "card1" style={{backgroundImage:`url(${aibg})`}}>
+      <div className = "image1" >
+        <img  className="img1" src = {ai} alt="AI"/><p className="leo">AIRTIFICIAL INTELLIGENCE</p>
       </div>
       <div className = "content1">
         <p>There are various advantages of integrating AI into your business systems. Outsource AI experts from DataToBiz to make the most of the advanced technology to optimize resources, increase production.</p>
@@ -135,9 +150,9 @@ function Home() {
 
           <div className = "container1">
     
-    <div className = "card1">
+    <div className = "card1" style={{backgroundImage:`url(${mlbg})`}}>
       <div className = "image1">
-        <img  className="img1" src = {ml} alt="MACHINE"/><p>MACHINE LEARNING</p>
+        <img  className="img1" src = {ml} alt="MACHINE"/><p className="leo">MACHINE LEARNING</p>
       </div>
       <div className = "content1">
         <p>There are various advantages of integrating into your business systems. Outsource AI experts from DataToBiz to make the most of the advanced technology to optimize resources, increase production.</p>
@@ -150,11 +165,11 @@ function Home() {
 
           <div className = "container1">
     
-    <div className = "card1 ">
+    <div className = "card1 " style={{backgroundImage:`url(${dmsbg})`}}>
       <div className = "image1">
-        <img  className="img1" src = {dms} alt="Data management"/><p>DATA MANAGEMENT SERVICES</p>
+        <img  className="img1" src = {dms} alt="Data management"/><p className="leo">DATA MANAGEMENT SERVICES</p>
       </div>
-      <div className = "content1">
+      <div className = "content11">
         <p>To sustain your competitive edge, you need to capitalize on the torrent of structured/unstructured, IoT and raw data crossing your borders daily</p>
         <button className="btn btn-success">Learn More</button>
       </div>
@@ -165,9 +180,9 @@ function Home() {
 
           <div className = "container1">
     
-    <div className = "card1">
+    <div className = "card1" style={{backgroundImage:`url(${uibg})`}}>
       <div className = "image1">
-        <img  className="img1" src = {uiux} alt="Ui/Ux"/><p>UI/UX</p>
+        <img  className="img1" src = {uiux} alt="Ui/Ux"/><p className="leo">UI/UX</p>
       </div>
       <div className = "content1">
         <p>UI/UX, as it has popularly come to be known, has its roots in the creator’s ability to empathize with users, understand the product’s objective, and integrate it within the organization.</p>
@@ -180,11 +195,11 @@ function Home() {
 
           <div className = "container1">
     
-    <div className = "card1">
+    <div className = "card1" style={{backgroundImage:`url(${itbg})`}}>
       <div className = "image1">
-        <img  className="img1" src = {it} alt="Consultant"/><p>IT CONSULTANT SERVICES</p>
+        <img  className="img1" src = {it} alt="Consultant"/><p style={{fontWeight:"700"}} >IT CONSULTANT SERVICES</p>
       </div>
-      <div className = "content1">
+      <div className = "content11">
         <p>Trying to solve all your IT challenges internally can become costly and a
            major distraction, Leveraging knowledgeable IT consulting firms .</p>
            <button className="btn btn-success">Learn More</button>
@@ -194,7 +209,7 @@ function Home() {
         </SwiperSlide>
         
       </Swiper>
-      </div>
+      </div> 
 
 
 
