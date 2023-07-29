@@ -44,7 +44,7 @@ function Home() {
              </div>
      <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px",}}> 
             <div className="row">
-                <img src={partner}  style={{borderRadius:"100px",objectFit:"contain"}} alt='About Us' className="col-sm-6 p-5"/>
+                <img src={partner}  style={{ height:"400px",borderRadius:"50px",marginTop:"25px"}} alt='partner' className="col-sm-6 "/>
                 <div className="col-sm-6 p-5">
                   <h5 className="lean">Your premier partner for IT and Cyber Security Solutions</h5>
                   <h6 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h6>
@@ -84,7 +84,7 @@ function Home() {
         <br/><br/><br/>
 
            
-         <div className='body' style={{backgroundColor:'#F0F8FF',borderRadius:"50px",boxShadow:"0 2.5px 10px #F0F8FF"}} >
+         <div className="body container" style={{backgroundColor:'#F0F8FF',borderRadius:"50px",boxShadow:"0 2.5px 10px #F0F8FF"}} >
       <Swiper 
       //  slidesPerView={1.5}
         // spaceBetween={-350}
@@ -100,7 +100,7 @@ function Home() {
             slidesPerView: 1.5,
           },
           960:{
-            slidesPerView:3,
+            slidesPerView:2,
           },
         }}
       
@@ -228,7 +228,7 @@ function Home() {
         </div>
         <br/><br/><br/>
   
-                  <div  className="container">
+                  <div  className="container" >
                        <div className="row">
                          <div className="col-md p-2 column">
                        <Card style={{width:"18rem", lineHeight:"32px"}}>
@@ -324,10 +324,12 @@ function Home() {
 
 
 
-        <div className="container mt-3">  
+        <div className="container mt-3" >  
               <div className="container" >
                 <div className="row">
-                  <div className="col-md "><div className="container2">
+                  <div className="col-md ">
+                    <br/>
+                    <div className="container2">
                      <div className="card2" >
                        <h3 className="v moon"> Software assets</h3>
                        <br/>
@@ -339,6 +341,7 @@ function Home() {
                        </div>
                      </div>
                 </div>
+                <br/>
                 </div>
                   <div className="col-md ">   <div className="container2">
                      <div className="card2" >
@@ -390,7 +393,7 @@ function Home() {
 
         <div className="container mt-3"   style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-            <img src={homebg4} alt='About Us' className="col-sm-6  text-white p-3" style={{borderRadius:"50px"}}/>
+            <img src={homebg4} alt='bg4' className="col-sm-6  text-white p-3" style={{borderRadius:"50px"}}/>
 
                 <div className="col-sm-6  text-white p-3">
                   <h5 className="lean" style={{textAlign:"center",marginTop:"60px"}}>Timely Service, And Incident Resolutions!!</h5>

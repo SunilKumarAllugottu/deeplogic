@@ -36,7 +36,7 @@
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 102rem;
   display: flex;
   align-items: center;
   margin-bottom: 1%;
@@ -72,6 +72,7 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-size: 20px;
   
 }
 
@@ -177,7 +178,7 @@
   position: absolute;
   background-color:lightcyan;
   /* min-width: 250px; */
-  width: 200px;
+  width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-radius: 15px;
   z-index: 1;
@@ -201,6 +202,12 @@
 }
 
 .hov{
-font-size: small;
+font-size: medium;
 }
 
+
+/* .logo
+{
+  mix-blend-mode:screen;
+  height: 70px;
+} */

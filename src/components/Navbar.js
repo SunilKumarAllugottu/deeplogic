@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
-import Logo from "./Assets/logoo png.png"
+import Logo from "./Assets/deeplogics logo1.png"
 
 
 const Navbar = () =>{
@@ -31,7 +31,7 @@ const Navbar = () =>{
         <nav className='navbar active'>
           <div className="navbar-con containernav fs-6">
             <Link to="/" className="navbar-logo navbar-icon" onClick={closeMobileMenu}>
-              <img class="png" src={Logo}alt="Deeplogics"/>
+              <img className="logo" src={Logo}alt="Deeplogics"/>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -76,8 +76,8 @@ const Navbar = () =>{
 
 
               <li className="nav-item dropdown " >
-                                <div class=" nav-links dropdown-toggle"style={{cursor:"pointer"}}>Services</div>
-                                <div class=" dropdown-content ">
+                                <div className=" nav-links dropdown-toggle"style={{cursor:"pointer"}}>Services</div>
+                                <div className=" dropdown-content ">
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Services/Energy">Deeplogics Energy</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Services/Technologies">Deeplogics Technologies</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Services/Logistics">Deeplogics Logistics</NavLink>
