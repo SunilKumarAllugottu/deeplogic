@@ -328,7 +328,6 @@ function Home() {
               <div className="container" >
                 <div className="row">
                   <div className="col-md ">
-                    <br/>
                     <div className="container2">
                      <div className="card2" >
                        <h3 className="v moon"> Software assets</h3>
@@ -341,7 +340,6 @@ function Home() {
                        </div>
                      </div>
                 </div>
-                <br/>
                 </div>
                   <div className="col-md ">   <div className="container2">
                      <div className="card2" >
