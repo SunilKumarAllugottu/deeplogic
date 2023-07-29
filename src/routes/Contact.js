@@ -5,7 +5,8 @@ import location from './Assets/location.gif'
 import ema from './Assets/email.gif'
 // import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contact = () =>{
 
 
@@ -29,7 +30,16 @@ const Contact = () =>{
     }
     userData.push(userDetails)
     localStorage.setItem("data",JSON.stringify(userData))
-    alert("SUBMITTED")
+    toast.success('🦄 User Data Saved!', {
+      position: "top-center",
+      autoClose: 1000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
     // setShow1(!show1);
   }
 
@@ -109,7 +119,7 @@ const Contact = () =>{
     {/* </div> */}
     <br/>
 			
-		
+		<ToastContainer />
 
     </>
   );
