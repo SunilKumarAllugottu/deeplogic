@@ -21,6 +21,7 @@ import cloudbg from './Assets/Cloudbg.png'
 import itbg from './Assets/ITbg.png'
 import mlbg from './Assets/MLbg.png'
 import dmsbg from './Assets/Dmsbg.png'
+import Card from "react-bootstrap/Card"
 
 
 function Home() {
@@ -43,7 +44,7 @@ function Home() {
              </div>
      <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px",}}> 
             <div className="row">
-                <img src={partner}  style={{objectFit:'contain'}} alt='About Us' className="col-sm-6"/>
+                <img src={partner}  style={{borderRadius:"100px",objectFit:"contain"}} alt='About Us' className="col-sm-6 p-5"/>
                 <div className="col-sm-6 p-5">
                   <h5 className="lean">Your premier partner for IT and Cyber Security Solutions</h5>
                   <h6 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h6>
@@ -96,7 +97,10 @@ function Home() {
           },
           // when window width is >= 768px
           768: {
-            slidesPerView: 3,
+            slidesPerView: 1.5,
+          },
+          960:{
+            slidesPerView:3,
           },
         }}
       
@@ -226,11 +230,58 @@ function Home() {
   
                   <div  className="container">
                        <div className="row">
-                         
+                         <div className="col-md p-2 column">
+                       <Card style={{width:"18rem", lineHeight:"32px"}}>
+                             <Card.Header><b>UI/UX</b></Card.Header>
+                             <Card.Body>
+                               {/* <Card.Title>Card Title </Card.Title> */}
+                               <Card.Text>
+                               Deeplogics UX and UI experts create intuitive navigation 
+                               and appealing interfaces for your web software.
+                               </Card.Text>
+                             </Card.Body>
+        </Card>
+        </div>
+                         <div className="col-md p-2 column">
+                       <Card style={{width:"18rem", lineHeight:"40px"}}>
+                          <Card.Header><b>Graphic Design</b></Card.Header>
+                          <Card.Body>
+                            {/* <Card.Title>Card Title </Card.Title> */}
+                            <Card.Text>
+                            Showcasing innovation every day , our mission is to showcase cutting edge creativity, regardless
+                            </Card.Text>
+                          </Card.Body>
+        </Card>
+        </div>
+                         <div className="col-md p-2 column">
+                       <Card style={{width:"18rem",lineHeight:"32px"}} >
+                            <Card.Header><b>Android</b></Card.Header>
+                            <Card.Body>
+                              {/* <Card.Title>Card Title </Card.Title> */}
+                              <Card.Text>
+                              The awards that recognize the talent and effort of the best web designers, developers and agencies .
+                              </Card.Text>
+                            </Card.Body>
+        </Card>
+        </div>
+
+                         <div className="col-md p-2 column">
+                       <Card style={{width:"18rem",lineHeight:"40px"}}>
+                             <Card.Header><b>PHP</b></Card.Header>
+                             <Card.Body>
+                                {/* <Card.Title>Card Title </Card.Title> */}
+                               <Card.Text>
+                               A web design & development award platform for digital folk, UI/UX peeps and inspiring leaders.
+
+                               </Card.Text>
+                             </Card.Body>
+        </Card>
+        </div>
                        
-                         <div className="column">
+                       
+                         {/* <div className="column">
                            <div className="card">
-                             <h3>UX/UI</h3>
+                             <h3 >UX/UI</h3>
                              <p>
                               Deeplogics UX and UI experts create intuitive navigation and appealing interfaces for your web software.</p>
                            </div>
@@ -238,7 +289,7 @@ function Home() {
                          
                          <div className="column">
                            <div className="card">
-                             <h3>Graphic Design</h3>
+                             <h3 style={{padding:"10px"}}>Graphic Design</h3>
                              <p>
                               Showcasing innovation every day , our mission is to showcase cutting edge creativity, regardless</p>
                            </div>
@@ -246,18 +297,18 @@ function Home() {
                          
                          <div className="column">
                            <div className="card">
-                             <h3>Android</h3>
+                             <h3 style={{padding:"10px"}}>Android</h3>
                              <p>
                               The awards that recognize the talent and effort of the best web designers, developers and agencies .</p>
                            </div>
                          </div>
                          <div className="column">
                            <div className="card">
-                             <h3>PHP</h3>
+                             <h3 style={{padding:"10px"}}>PHP</h3>
                              <p>
                              A web design & development award platform for digital folk, UI/UX peeps and inspiring leaders.</p>
                            </div>
-                         </div>
+                         </div> */}
                        </div>
                    </div>
 
