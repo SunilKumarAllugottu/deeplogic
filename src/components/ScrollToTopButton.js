@@ -28,7 +28,7 @@ const ScrollToTop = () => {
 
   return (
     <div className={`scroll-to-top ${isVisible ? 'show' : ''}`} onClick={scrollToTop}>
-      <i ><FaArrowCircleUp/></i> 
+      <i ><FaArrowCircleUp style={{fontSize:'30px'}}/></i> 
     </div>
   );
 };

@@ -28,23 +28,23 @@ function Home() {
   return (
     <>
     
-    <div className="homebg"  style={{height:"auto"}}>
+    <div className="homebg" >
     <div  className="container" style={{padding:"80px"}} > 
             {/* <img src={banner} style={{margin:"0",width:"970px"}}/> */}
-                <div className="col" >
-                    <h4 style={{color:"white",}}>Deeplogics Labs Corp.</h4>
-                    <h3 style={{color:"white",fontSize:"25px"}}>Cyber Security Solutions.</h3>
-                    <p className="con" style={{color:"white",fontSize:"14px"}}>
+                <div className="col" style={{marginTop:'90px'}}>
+                    <h1 style={{color:"#fff",}}>Deeplogics Labs Corp.</h1>
+                    <h2 style={{color:"#fff"}}>Cyber Security Solutions.</h2>
+                    <p className="con" style={{color:"#fff",fontSize:"18px"}}>
                         Deeplogics is the market leading solution for recovering
                        and examining digital data<br/> from the broadest range of digital
                        devices, applications, the cloud and warrant returns.     </p>
                 </div>
              </div>
              </div>
-     <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
+     <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px",}}> 
             <div className="row">
-                <img src={partner}  style={{borderRadius:"50px"}} alt='About Us' className="col-sm-6  text-white p-3"/>
-                <div className="col-sm-6  text-white p-3">
+                <img src={partner}  style={{objectFit:'contain'}} alt='About Us' className="col-sm-6"/>
+                <div className="col-sm-6 p-5">
                   <h5 className="lean">Your premier partner for IT and Cyber Security Solutions</h5>
                   <h6 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h6>
                 <p className="con">Deeplogics Labs Corp. With over two decades of I.T. and security consulting experience, Deeplogics offers dozens of cybersecurity solutions tailored to your company’s budget, risk tolerance, and funding stage.
@@ -64,7 +64,7 @@ function Home() {
                   <h6 className="bold">VULNERABILITY ASSESSMENT AND PENETRATION TESTING</h6>
                   <p className="con">Penetration testing, also known as ethical hacking, is a key component of offensive security. The idea is to simulate a cyberattack on an organization's infrastructure to uncover vulnerabilities before actual hackers do. Our Penetration testing services combine manual and automated techniques to ensure the protection of critical organizational data and compliance with industry standards. From developing a comprehensive plan to executing the tests and delivering a detailed report, Deeplogics leverages its expertise to enhance the organization's security position with the best industry practices.
 
-                </p>
+                </p> 
             </div>
                 <img src={testing} style={{borderRadius:"50px"}} alt='testing' className="col-sm-6  text-white p-3"/>
             </div>
@@ -86,7 +86,7 @@ function Home() {
          <div className='body' style={{backgroundColor:'#F0F8FF',borderRadius:"50px",boxShadow:"0 2.5px 10px #F0F8FF"}} >
       <Swiper 
       //  slidesPerView={1.5}
-        // spaceBetween={-150}
+        // spaceBetween={-350}
         // direction={'vertical'}
         breakpoints={{
           // when window width is >= 640px
@@ -96,7 +96,7 @@ function Home() {
           },
           // when window width is >= 768px
           768: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
         }}
       

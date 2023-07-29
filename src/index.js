@@ -62,7 +62,8 @@ const AppLayout = () => {
     
     </div>
     <div className="col"> 
-    <Link to={"https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558718_kw.linkedin+login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9062141&mcid=6844056167778418689&cid=&gclid=CjwKCAjwh8mlBhB_EiwAsztdBLAjqU_mbhmwOZ4s69SmUI6KZUQKce_7L9FNZU_fNVubERJUzx7TjBoCsOEQAvD_BwE&gclsrc=aw.ds&original_referer=https%3A%2F%2Fwww.google.com%2F"}>    <FaLinkedinIn className="icons" /></Link>
+    <Link to={"https://in.linkedin.com/?src=go-pa&trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558718_kw.linkedin+login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9062141&mcid=6844056167778418689&cid=&gclid=CjwKCAjwh8mlBhB_EiwAsztdBLAjqU_mbhmwOZ4s69SmUI6KZUQKce_7L9FNZU_fNVubERJUzx7TjBoCsOEQAvD_BwE&gclsrc=aw.ds&original_referer=https%3A%2F%2Fwww.google.com%2F"}> 
+                  <FaLinkedinIn className="icons" /></Link>
     </div>
     </div>
     </div>

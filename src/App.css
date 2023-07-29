@@ -10,7 +10,7 @@
 .homebg{
   background-image: url("/src/routes//Assets/bnrrr.png");
   width: 100%;
-  height: 400px;
+  height: 600px;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -67,17 +67,16 @@
 
 .con{
   color: #192057;
-  font-size: 80%;
   font-family: 16px Poppins, sans-serif;
 }
 .bold{
   color: #222222;
-  font-family: 22px Poppins, sans-serif;
+  font-family: 24px Poppins, sans-serif;
 }
 .lean{
   color: #00a8ff;
   font-weight: 700;
-  font-family: 20px Poppins, sans-serif;
+  font-family: 26px Poppins, sans-serif;
   background-image: linear-gradient(35deg,#7474BF 10%,#348AC7  100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip:text;
@@ -88,7 +87,7 @@
 p.text{
           text-decoration: none;
           font-family:  Poppins, sans-serif;
-          font-size: xx-small;
+          font-size: small;
           color:white;
           font-weight: 100;
 }
@@ -120,14 +119,14 @@ p.text{
 .Deep{
       font-family:Georgia, 'Times New Roman', Times, serif ;
       color:white;
-      font-size: larger;
+      font-size: x-large;
       text-decoration: underline ;
 
 }
 .Deed{
   font-family:Georgia, 'Times New Roman', Times, serif ;
   color:white;
-  font-size: larger;
+  font-size: xx-large;
   text-decoration: underline ;
 }
 .Deed:hover{
