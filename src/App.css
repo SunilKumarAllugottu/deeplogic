@@ -1,5 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); */
-
 .bg{
   /* background-image: url("/src/components/Assets/93190.jpg"); */
   background-image: url("/src/components/Assets/BG.jpg");
@@ -91,14 +89,7 @@ p.text{
           color:white;
           font-weight: 100;
 }
-/* p.big{
-          line-height: normal;
-          text-decoration: none;
-          color:white;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          text-decoration: underline   whitesmoke;
-          font-size: larger;
-} */
+
 
 .footer{
   padding: 25px;
@@ -435,33 +426,6 @@ p.cap{
 
 
 
-
-/* .card {
-  display: block;
-  position: relative;
-  max-width: 262px;
-  background-color: #f1f1f1;
-  border-radius: 4px;
-  padding: 15px 20px;
-  margin: 12px;
-  text-decoration: none;
-  z-index: 0;
-  height: 200px;
-  background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%)
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 .login-wrap{
  width:100%;
  margin:auto;
@@ -488,14 +452,7 @@ p.cap{
 }
 
 
-/* .login-html .tab{
- font-size:22px;
- margin-right:15px;
- padding-bottom:5px;
- margin:0 15px 10px 0;
- display:inline-block;
- border-bottom:2px solid transparent;
-} */
+
 .login-html .Contact + .tab{
  color:#fff;
  border-color:#1161ee;
