@@ -62,10 +62,16 @@ function Home() {
             <div className="row">
                 <div className="col-sm-6  text-white p-3">
                   <h5 className="lean">Since 2007</h5>
-                  <h6 className="bold">VULNERABILITY ASSESSMENT AND PENETRATION TESTING</h6>
-                  <p className="con">Penetration testing, also known as ethical hacking, is a key component of offensive security. The idea is to simulate a cyberattack on an organization's infrastructure to uncover vulnerabilities before actual hackers do. Our Penetration testing services combine manual and automated techniques to ensure the protection of critical organizational data and compliance with industry standards. From developing a comprehensive plan to executing the tests and delivering a detailed report, Deeplogics leverages its expertise to enhance the organization's security position with the best industry practices.
-
+                  <h6 className="bold">We Have Decades Of Work Experience!</h6>
+                  <p className="con">Provide users with appropriate view and access to requests, problems,
+                   changes, contracts, solutions, and reports.
                 </p> 
+                  <h6 className="bold">Consulting & Insights</h6>
+                  <p className="con">Our objective insights steer you toward the right decisions on issues that matter.</p>
+                  <h6 className="bold">Research & Advisory</h6>
+                  <p className="con">Our combination of research, problem solving and hands-on experience.</p>
+                  <h6 className="bold">Strategic Advice</h6>
+                  <p className="con">Tools to help turn strategy into decisions, and execute for measurable results.</p>
             </div>
                 <img src={testing} style={{borderRadius:"50px"}} alt='testing' className="col-sm-6  text-white p-3"/>
             </div>
