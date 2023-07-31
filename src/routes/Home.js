@@ -13,7 +13,7 @@ import ml from './Assets/robotics.gif'
 import ai from './Assets/artificial-intelligence.gif'
 import homebg4 from './Assets/3573741.jpg' 
 import testing from './Assets/pen-testing-compliance_1.jpg';
-import partner from './Assets/bg-web.jpg';
+import partner from './Assets/bg-web.jpg'; 
 // import banner from './Assets/Cybersecurity banner.png'
 import uibg from './Assets/UI.png'
 import aibg from './Assets/Ai.png'

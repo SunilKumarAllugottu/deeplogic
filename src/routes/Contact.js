@@ -53,7 +53,7 @@ const Contact = () =>{
     <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
     <div className="row">
     <div className="col-sm-6">
-      <br/>
+      <br/> 
     <div className="login-wrap">
         <div className="login-html">
 

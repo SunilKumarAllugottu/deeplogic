@@ -25,7 +25,7 @@ const Navbar = () =>{
   // window.addEventListener('scroll',changeBackground);
 
   return (
-    <>
+    <> 
       <IconContext.Provider value={{ color: "#000000" }}>
         {/* <nav className={navbar?'navbar active':"navbar"}> */}
         <nav className='navbar active'>

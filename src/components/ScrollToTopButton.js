@@ -25,7 +25,7 @@ const ScrollToTop = () => {
       window.removeEventListener('scroll', toggleVisibility);
     };
   }, []);
-
+ 
   return (
     <div className={`scroll-to-top ${isVisible ? 'show' : ''}`} onClick={scrollToTop}>
       <i ><FaArrowCircleUp style={{fontSize:'30px'}}/></i> 

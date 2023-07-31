@@ -7,7 +7,7 @@ const AboutUs = () =>{
         <h1 className="header" style={{color:"white"}}>ABOUT US</h1>
       </div>
       <br/>
-
+ 
         <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
                 <img src={pic1} style={{height:"300px",width:"300px",margin:"auto",top:"0"}} alt='About Us' className="col-sm-6   p-3"/>
