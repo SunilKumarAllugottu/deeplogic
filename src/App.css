@@ -578,3 +578,31 @@ p.cap{
 .scroll-to-top:hover {
 color:red ;
 }
+/* ::selection{
+  background-color: #89CFF0;
+} */
+
+
+/* width */
+::-webkit-scrollbar {
+  /* width: 10px; */
+  display: none;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+} */
+ 
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #3e51e7; 
+  border-radius: 10px;
+  transition-delay: 5;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: red; 
+} */

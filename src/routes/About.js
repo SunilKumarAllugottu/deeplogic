@@ -30,6 +30,7 @@ const AboutUs = () =>{
             </div>
         </div>
         <br/>
-        </>);
+        </>
+        );
 }
 export default AboutUs;
