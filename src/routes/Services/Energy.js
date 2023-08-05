@@ -1,5 +1,5 @@
 import React from "react";
-import Ene from "./image-1.png" 
+import Ene from "./Assets/image-1.png" 
 
 function Energy() {
   return (
@@ -8,12 +8,12 @@ function Energy() {
 <h1 className="header" style={{color:"white"}}>Deeplogics Energy</h1>
 </div>
 <br/>
-<div className="container-fluid " style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
+<div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
        <img src={Ene} style={{margin:"auto",top:"0",height:"250px",width:"500px"}} alt='Energy' className="col-lg"/>
-       <div className="col-lg">
-       <h5 className="lean">Deeplogics Energy</h5>
-       <h6 className="bold">Why is the Deeplogics Energy?</h6>
+       <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+       <h2 className="lean">Deeplogics Energy</h2>
+       <h4 className="bold">Why is the Deeplogics Energy?</h4>
        <p className="con">Deeplogics offers a diverse renewable portfolio of solutions in solar, wind, biomass and waste-to-energy with synthetic diesel, oil and gas.
 
        <br/> <br/>We are aligned with technology partners and late-stage investors that provide deep capital for all enterprise high end projects in construction, technology and utility scale renewable energy with power purchase agreements worldwide.

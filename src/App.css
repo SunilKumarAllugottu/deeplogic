@@ -6,12 +6,12 @@
   background-repeat: 'no-repeat';
 }
 .homebg{
-  background-image: url("/src/routes//Assets/bnrrr.png");
+  background-image: url("/src/components/Assets/Firefly\ Inpaint\ 20230804184249\ copy.png");
   width: 100%;
-  height: 600px;
+  height: 625px;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; 
 
   /* background-image: url("/src/components/Assets/93190.jpg"); */
   /* height:350px; */
@@ -20,11 +20,14 @@
   /* background-size: 'cover'; */
   /* background-repeat: 'no-repeat'; */
 }
+
+
 @media screen and (max-width: 960px) {
   .homebg{
     background-attachment: scroll;
   }
 }
+
 
 .about,
 .contact {
@@ -102,7 +105,8 @@ p.text{
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 80px;
+  min-height: 400px;
+  /* padding: 80px; */
   background-color: transparent;
 
 }
@@ -604,5 +608,5 @@ color:red ;
 
 /* Handle on hover */
 /* ::-webkit-scrollbar-thumb:hover {
-  background: red; 
+  background: #f5f6f7; 
 } */

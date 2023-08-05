@@ -12,7 +12,7 @@ import it from './Assets/consultation.gif'
 import ml from './Assets/robotics.gif'
 import ai from './Assets/artificial-intelligence.gif'
 import homebg4 from './Assets/3573741.jpg' 
-import testing from './Assets/pen-testing-compliance_1.jpg';
+import experience from './Assets/7000961.jpg';
 import partner from './Assets/bg-web.jpg'; 
 // import banner from './Assets/Cybersecurity banner.png'
 import uibg from './Assets/UI.png'
@@ -33,9 +33,9 @@ function Home() {
     <div  className="container" style={{padding:"80px"}} > 
             {/* <img src={banner} style={{margin:"0",width:"970px"}}/> */}
                 <div className="col" style={{marginTop:'90px'}}>
-                    <h1 style={{color:"#fff",}}>Deeplogics Labs Corp.</h1>
-                    <h2 style={{color:"#fff"}}>Cyber Security Solutions.</h2>
-                    <p className="con" style={{color:"#fff",fontSize:"18px"}}>
+                    <h1 style={{color:"#fff",fontSize:"40px"}}>Deeplogics Labs Corp.</h1>
+                    <h2 style={{color:"#fff",fontSize:"38px"}}>Cyber Security Solutions.</h2>
+                    <p className="con" style={{color:"#fff",fontSize:"20px"}}>
                         Deeplogics is the market leading solution for recovering
                        and examining digital data<br/> from the broadest range of digital
                        devices, applications, the cloud and warrant returns.     </p>
@@ -43,11 +43,11 @@ function Home() {
              </div>
              </div>
      <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px",}}> 
-            <div className="row">
+            <div className="row" style={{marginTop:"-40px"}}>
                 <img src={partner}  style={{ height:"400px",borderRadius:"50px",marginTop:"25px"}} alt='partner' className="col-sm-6 "/>
-                <div className="col-sm-6 p-5">
-                  <h5 className="lean">Your premier partner for IT and Cyber Security Solutions</h5>
-                  <h6 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h6>
+                <div className="col-sm-6 p-5" >
+                  <h2 className="lean">Your premier partner for IT and Cyber Security Solutions</h2>
+                  <h4 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h4>
                 <p className="con">Deeplogics Labs Corp. With over two decades of I.T. and security consulting experience, Deeplogics offers dozens of cybersecurity solutions tailored to your company’s budget, risk tolerance, and funding stage.
 
                     <br/><br/>The Deeplogics team has elite and extensive experience in both public and private sectors, and brings deep understanding of how adversaries think and what their next steps may be..
@@ -60,26 +60,26 @@ function Home() {
               <br/><br/>
         <div className="container mt-3" style={{backgroundColor:'#f5f5f5',borderRadius:"25px"}}> 
             <div className="row">
-                <div className="col-sm-6  text-white p-3">
-                  <h5 className="lean">Since 2007</h5>
-                  <h6 className="bold">We Have Decades Of Work Experience!</h6>
+                <div className="col-sm-6  text-white p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+                  <h2 className="lean">Since 2007</h2>
+                  <h4 className="bold">We Have Decades Of Work Experience!</h4>
                   <p className="con">Provide users with appropriate view and access to requests, problems,
                    changes, contracts, solutions, and reports.
                 </p> 
-                  <h6 className="bold">Consulting & Insights</h6>
+                  <h4 className="bold">Consulting & Insights</h4>
                   <p className="con">Our objective insights steer you toward the right decisions on issues that matter.</p>
-                  <h6 className="bold">Research & Advisory</h6>
+                  <h4 className="bold">Research & Advisory</h4>
                   <p className="con">Our combination of research, problem solving and hands-on experience.</p>
-                  <h6 className="bold">Strategic Advice</h6>
+                  <h4 className="bold">Strategic Advice</h4>
                   <p className="con">Tools to help turn strategy into decisions, and execute for measurable results.</p>
             </div>
-                <img src={testing} style={{borderRadius:"50px"}} alt='testing' className="col-sm-6  text-white p-3"/>
+                <img src={experience} style={{borderRadius:"50px",}} alt='testing' className="col-sm-6  text-white p-3"/>
             </div>
         </div>
         <br/><br/><br/>
         <div className="container "style={{textAlign:"center",padding:"50px",borderRadius:"50px",boxShadow:"0px 2px 15px rgba(0,0,0,.1)"}} >
-        <h5 className="lean">Nationwide Service, Local Expertise</h5>
-                  <h6 className="bold">Offering The Latest Software And IT Services To Our Customers!</h6>
+        <h2 className="lean">Nationwide Service, Local Expertise</h2>
+                  <h4 className="bold">Offering The Latest Software And IT Services To Our Customers!</h4>
                 <p className="con" >Improve efficiency, leverage tech, and provide better customer
                  experiences with the modern technology services available allover the world. Our skilled
                   personnel, utilising the latest processing software, combined with decades of experience.
@@ -227,8 +227,8 @@ function Home() {
 
 
       <div className="container" style={{textAlign:"center",padding:"50px",backgroundColor:'#f5f5f5',borderRadius:"25px"}}>
-        <h5 className="lean cent">Why Choose US</h5>
-                  <h6 className="bold cent">Our Technologies</h6>
+        <h2 className="lean cent">Why Choose US</h2>
+                  <h4 className="bold cent">Our Technologies</h4>
                 <p className="con" >Trusted by the world's best organizations, for 16+ years and running, We have been delivering smiles to hundreds of IT advisors, developers, users, and business owners.
                 </p>
         </div>
@@ -321,8 +321,8 @@ function Home() {
                    <br/><br/><br/>
 
         <div className="container" style={{textAlign:"center",padding:"50px"  ,backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
-        <h5 className="lean cent">Providers and IT support staff are ready to help.</h5>
-                  <h6>Provides Consultative Approach On Emerging Technology.</h6>
+        <h2 className="lean cent">Providers and IT support staff are ready to help.</h2>
+                  <h4>Provides Consultative Approach On Emerging Technology.</h4>
                 <p className="con" >Deeplogics has been helping organizations and Providers through the World to manage their IT with our unique approach to technology management and consultancy solutions.
                 </p>
         </div>
@@ -399,8 +399,8 @@ function Home() {
             <div className="row">
             <img src={homebg4} alt='bg4' className="col-sm-6  text-white p-3" style={{borderRadius:"50px"}}/>
 
-                <div className="col-sm-6  text-white p-3">
-                  <h5 className="lean" style={{textAlign:"center",marginTop:"60px"}}>Timely Service, And Incident Resolutions!!</h5>
+                <div className="col-sm-6  text-white p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+                  <h2 className="lean" >Timely Service, And Incident Resolutions!!</h2>
                 <p className="con">Improve efficiency, leverage tech, and provide better customer experiences with the modern technology services available allover the world.<br/>
 
                  Our skilled personnel, utilising the latest processing software, combined with decades of experience.

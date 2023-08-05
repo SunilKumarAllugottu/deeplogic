@@ -1,4 +1,4 @@
-import nat from './20943886.png'
+import nat from './Assets/20943886.png'
 
 const Native =() =>{
     return(
@@ -7,17 +7,17 @@ const Native =() =>{
         <h1 className="header" style={{color:"white"}}>Native Mobile Solutions</h1>
       </div>
       <br/>
-        <div className="container-fluid " style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
+        <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-                <img src={nat} style={{margin:"auto",top:"0",height:"250px",width:"500px"}} alt='About Us' className="col-lg"/>
-                <div className="col-lg">
+                <img src={nat} style={{margin:"auto",top:"0",height:"400px",width:"auto"}} alt='About Us' className="col-lg"/>
+                <div className="col-lg p-4" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                 <p className="con"><b>Is</b> your company optimized and ready for the mobile marketplace? A Smart Phone is an extension of human evolution, and we’ve now reached a point where it’s inextricable from our daily routines at home,at work and at play.
 
                 <br/><br/><b> Not</b> too long ago, a phone was just about voice. Now it is about voice, emotion, business, and happiness. A pocket-sized device such as smart phone for information, entertainment, and connections can bring more joy than a large TV fitted on a wall. Contact us for your mobile development needs.
 
                 <br/><br/><b>We</b> are the industry leader in Mobile apps development. We Architect, Design, Implement, Test & Deliver the world class mobile applications for iOS, Android, Windows, and beyond. We deliver new apps or porting for your brand in both native and cross platform by using HTML5, PhoneGap, Sencha Touch etc. Whether You are a start-up, SMB or Fortune 500 company from any industry, we have the unique solutions for everyone.
                 </p>
-                <h5 className="lean">Our Offerings Include</h5>
+                <h3 className="lean">Our Offerings Include</h3>
                 <p className="con">
                         - Mobile Consulting,<br/><br/>
                         - Mobile Application Security,<br/><br/>

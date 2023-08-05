@@ -24,6 +24,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import ScrollToTopButton from "./components/ScrollToTopButton";
+import Penetration from "./routes/Capabilities/Penetration";
+import Vulnerability from "./routes/Capabilities/Vulnerability";
 // import { FaArrowAltCircleUp } from "react-icons/fa";
 
 
@@ -147,6 +149,14 @@ const router = createBrowserRouter([
       {
         path: "Services/Logistics",
         element: <Logistics/>,
+      },
+      {
+        path: "Capabilities/Vulnerability",
+        element: <Vulnerability/>,
+      },
+      {
+        path: "Capabilities/Penetration",
+        element: <Penetration/>,
       },
       {
         path: "Services/Finantial",

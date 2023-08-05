@@ -65,7 +65,9 @@ const Navbar = () =>{
               <li className="nav-item dropdown " >
                                 <div className=" nav-links dropdown-toggle" style={{cursor:"pointer"}}>Capabilities</div>
                                 <div className="dropdown-content">
-                                  <NavLink  className="nav-links hov" onClick={closeMobileMenu} to="/Capabilities/Cybersecurity">Cybersecurity Solutions</NavLink>
+                                  <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Penetration">Penetration Testing</NavLink>
+                                  <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Vulnerability">Vulnerability Assessment</NavLink>
+                                  <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Cybersecurity">Cybersecurity Solutions</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Native">Native Mobile Solutions</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Wearable">Wearable Technology</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Enterprises">Enterprise Mobilty Solutions</NavLink>

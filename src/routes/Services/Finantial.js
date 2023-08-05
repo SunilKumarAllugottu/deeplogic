@@ -1,5 +1,5 @@
 import React from "react";
-import fin from './image-4.png'
+import fin from './Assets/image-4.png'
 function Finantial() {
   return (
     <>
@@ -7,12 +7,12 @@ function Finantial() {
 <h1 className="header" style={{color:"white"}}>Deeplogics Financial Capital</h1>
 </div>
 <br/>
-<div className="container-fluid " style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
+<div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-       <img src={fin} style={{margin:"auto",top:"0",height:"250px",width:"500px"}} alt='Energy' className="col-lg"/>
-       <div className="col-lg">
-       <h5 className="lean">Deeplogics and Eagle Investments Group Partnerhsip</h5>
-       <h6 className="bold">CAPITAL INVESTMENT AND COMMERCIAL LOANS FOR</h6>
+       <img src={fin} style={{margin:"auto",top:"0",height:"450px"}} alt='Energy' className="col-lg"/>
+       <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+       <h2 className="lean">Deeplogics and Eagle Investments Group Partnerhsip</h2>
+       <h4 className="bold">CAPITAL INVESTMENT AND COMMERCIAL LOANS FOR</h4>
        <p className="con">1.Retail Stores 2.Office Buildings 3.Industrial / Warehouse 4.Municipal Buildings/Infrastructures 5.Student Housing 6.Tenant improvement programs / green renovations 7.Hospitality 8.Transportation and Roads 9.Real Estate 10.Hospitals 11.Special use properties (data centers, gas stations, convenience stores, refrigerated storage, etc.) 12.Renewable energy with power purchase agreements (wind, solar, geothermal, biomass, etc.) 13.Energy Saving projects 14.Educational Projects
 
        <br/><br/><h6 className="bold"> What is our focus?</h6>

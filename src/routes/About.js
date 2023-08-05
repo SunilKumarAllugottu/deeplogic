@@ -10,10 +10,10 @@ const AboutUs = () =>{
  
         <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-                <img src={pic1} style={{height:"300px",width:"300px",margin:"auto",top:"0"}} alt='About Us' className="col-sm-6   p-3"/>
-                <div className="col-sm-6  text-white p-3">
-                  <h5 className="lean">Timely Service Delivery & Incident Resolutions!!</h5>
-                  <h6 className="bold">YOUR CYBERSECURITY PARTNER</h6>
+                <img src={pic1} style={{height:"600px",width:"auto",margin:"auto",top:"0"}} alt='About Us' className="col-lg   p-3"/>
+                <div className="col-lg p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+                  <h2 className="lean">Timely Service Delivery & Incident Resolutions!!</h2>
+                  <h4 className="bold">YOUR CYBERSECURITY PARTNER</h4>
                 <p className="con">Deeplogics Labs Corp. With over two decades of I.T and security consulting experience,
                      Deeplogics offers dozens of cybersecurity solutions tailored to your company’s budget,
                       risk tolerance, and funding stage. We take on full lifecycle management of security incidents.

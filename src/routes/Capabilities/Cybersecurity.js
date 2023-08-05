@@ -1,5 +1,5 @@
 import React from "react";
-import pic2 from "./pie chart.png"
+import pic2 from "./Assets/pie chart.png"
 
 function Cybersecurity() {
   return (
@@ -10,10 +10,10 @@ function Cybersecurity() {
       <br/>
       <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-                <img src={pic2} alt='Service' className=" pic col-sm-6   p-3"></img>
-                <div className="col-sm-6  text-white p-3">
-                  <h5 className="lean">INDUSTRY OVERVIEW</h5>
-                  <h6 className="bold">What is Cybersecurity?</h6>
+                <img src={pic2}  style={{margin:"auto"}}alt='Service' className=" pic col-lg   p-3"></img>
+                <div className="col-lg  p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+                  <h1 className="lean">INDUSTRY OVERVIEW</h1>
+                  <h3 className="bold">What is Cybersecurity?</h3>
                 <p className="con">Cyber security refers to every aspect of protecting an organization andits employees and assets against cyber threats. As cyberattacks become more common and sophisticated and corporate networks grow more complex, a variety of cyber security solutionsare required to mitigate corporate cyber risk.:<br/><br/>
 
                 Achieving Comprehensive Cybersecurity with Check Point A modern cybersecurity infrastructure is 

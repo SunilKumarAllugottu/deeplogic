@@ -30,7 +30,7 @@ const Contact = () =>{
     }
     userData.push(userDetails)
     localStorage.setItem("data",JSON.stringify(userData))
-    toast.success('🦄 User Data Saved!', {
+    toast.success('🦄 Message Submitted!', {
       position: "top-center",
       autoClose: 1000,
       hideProgressBar: false,
