@@ -78,10 +78,10 @@
   font-family: 24px Poppins, sans-serif;
 }
 .lean{
-  color: #00a8ff;
+  /* color: #00a8ff; */
   font-weight: 700;
   font-family: 26px Poppins, sans-serif;
-  background-image: linear-gradient(35deg,#7474BF 10%,#348AC7  100%);
+  background-image: linear-gradient(35deg,#7070ee 10%,#4dacf0  100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip:text;
   
