@@ -4,9 +4,11 @@
   height:"auto";
   background-size: 'cover';
   background-repeat: 'no-repeat';
+  background-attachment: fixed; 
+
 }
 .homebg{
-  background-image: url("/src/components/Assets/Firefly\ Inpaint\ 20230804184249\ copy.png");
+  background-image: url("/src/components/Assets/Firefly.png");
   width: 100%;
   height: 625px;
   background-position: center center;
@@ -20,6 +22,7 @@
   /* background-size: 'cover'; */
   /* background-repeat: 'no-repeat'; */
 }
+
 
 
 @media screen and (max-width: 960px) {

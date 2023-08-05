@@ -63,7 +63,7 @@ const Contact = () =>{
        <div className="Contact-htm">
             <div className="group">
                  <label htmlFor="user" className="label">Username</label>
-                 <input id="user" type="text" className="input" value={name}  onChange={(e)=>setName(e.target.value)}/>
+                 <input  id="user" type="text" className="input" value={name}  onChange={(e)=>setName(e.target.value)}/>
              </div>
                  <div className="group">
                    <label htmlFor="user" className="label">Phone</label>
@@ -72,11 +72,11 @@ const Contact = () =>{
                  </div>
                  <div className="group">
                    <label htmlFor="pass" className="label">Email Address</label>
-                   <input required type="text" className="input" value={email}  onChange={(e)=>setEmail(e.target.value)} />
+                   <input  type="text" className="input" value={email}  onChange={(e)=>setEmail(e.target.value)} />
                  </div>
                  <div className="group">
                    <label htmlFor="pass" className="label">message</label>
-                   <textarea className="input" id="txt" value={message}  onChange={(e)=>setMessage(e.target.value)}></textarea>
+                   <textarea  rows={5} className="input" id="txt" value={message}  onChange={(e)=>setMessage(e.target.value)}></textarea>
                  </div>
 
                  <div className="group">

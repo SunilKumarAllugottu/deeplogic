@@ -58,7 +58,7 @@ function Home() {
             </div>
         </div>
               <br/><br/>
-        <div className="container mt-3" style={{backgroundColor:'#f5f5f5',borderRadius:"25px"}}> 
+        <div className="container mt-3 " style={{backgroundColor:'#f5f5f5',borderRadius:"25px"}}> 
             <div className="row">
                 <div className="col-sm-6  text-white p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                   <h2 className="lean">Since 2007</h2>
@@ -77,7 +77,7 @@ function Home() {
             </div>
         </div>
         <br/><br/><br/>
-        <div className="container "style={{textAlign:"center",padding:"50px",borderRadius:"50px",boxShadow:"0px 2px 15px rgba(0,0,0,.1)"}} >
+        <div className="container containbg"style={{textAlign:"center",padding:"50px",borderRadius:"50px",boxShadow:"0px 2px 15px rgba(0,0,0,.1)"}} >
         <h2 className="lean">Nationwide Service, Local Expertise</h2>
                   <h4 className="bold">Offering The Latest Software And IT Services To Our Customers!</h4>
                 <p className="con" >Improve efficiency, leverage tech, and provide better customer
@@ -320,7 +320,7 @@ function Home() {
 
                    <br/><br/><br/>
 
-        <div className="container" style={{textAlign:"center",padding:"50px"  ,backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
+        <div className="container" style={{textAlign:"center",padding:"50px"  ,boxShadow:"0px 2px 15px rgba(0,0,0,.1)",backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
         <h2 className="lean cent">Providers and IT support staff are ready to help.</h2>
                   <h4>Provides Consultative Approach On Emerging Technology.</h4>
                 <p className="con" >Deeplogics has been helping organizations and Providers through the World to manage their IT with our unique approach to technology management and consultancy solutions.
