@@ -60,10 +60,10 @@ const Navbar = () =>{
                   About
                 </NavLink>
               </li>
-             
+
               
               <li className="nav-item dropdown " >
-                                <div className=" nav-links dropdown-toggle" style={{cursor:"pointer"}}>Capabilities</div>
+                                <div className="dropbtn nav-links dropdown-toggle" style={{cursor:"pointer"}}>Capabilities</div>
                                 <div className="dropdown-content">
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Penetration">Penetration Testing</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Vulnerability">Vulnerability Assessment</NavLink>

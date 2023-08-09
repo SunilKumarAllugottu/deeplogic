@@ -129,8 +129,8 @@ p.text{
 }
 .Deed:hover{
   /* transition: all 0.3s ease-out; */
-    color:red;
-    text-decoration: underline   red; 
+    color:rgb(14, 14, 244);
+    text-decoration: underline   rgb(14, 14, 244)1; 
 
 } 
 
@@ -521,11 +521,12 @@ p.cap{
 .icons{
   background-color: 'transparent';
   color:#ffffff ;
+  font-size: x-large;
 }
 
 .icons:hover{
   cursor: pointer;
-  background-color:red;
+  background-color:rgb(25, 10, 241);
 }
 
 
