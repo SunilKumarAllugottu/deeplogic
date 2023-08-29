@@ -11,7 +11,7 @@ export default function ErrorPage() {
     <div id="error-page" style={{borderRadius:"25px"}}>
       {/* <h1>Oh noo!</h1>
       <p>This is an Error Page.</p>*/}
-          <img style={{padding:"10px",width:"auto",height:"600px"}}src={err}></img>
+          <img style={{padding:"10px",width:"auto",height:"600px"}} alt="Error" src={err}></img>
       <p> 
         <i>{error.statusText || error.message}</i>
       </p>
