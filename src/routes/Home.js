@@ -106,12 +106,14 @@ function Home() {
             slidesPerView: 1.5,
           },
           960:{
-            slidesPerView:2,
+            // slidesPerView:3,
+            slidesPerView:3,
+            spaceBetween:30,
           },
         }}
       
         // hashNavigation={{ watchState: true,}}
-        centeredSlides={true}
+        // centeredSlides={true}
         autoplay={{
           delay: 9000,
           disableOnInteraction: false,
@@ -120,7 +122,8 @@ function Home() {
           clickable: true,
         }}
         rewind={true}
-        navigation={true}
+        
+
         modules={[ Autoplay,Pagination, Navigation, HashNavigation]}
         className="mySwiper "
       >
@@ -134,7 +137,7 @@ function Home() {
       </div>
       <div className = "content1">
         <p>Whether you are drawing up a Cloud Strategy, considering migrating some applications to the Cloud, automating repetitive Cloud tasks, implementing SysOps, DevOps, or setting up a ‘born in the Cloud’ business application.</p>
-        <button className="btn btn-success">Learn More</button>
+        {/* <button className="btn btn-success">Learn More</button> */}
       </div>
     </div>    
     </div>
@@ -151,7 +154,7 @@ function Home() {
       </div>
       <div className = "content1">
         <p>There are various advantages of integrating AI into your business systems. Outsource AI experts from DataToBiz to make the most of the advanced technology to optimize resources, and increase production.</p>
-        <button className="btn btn-success">Learn More</button>
+        {/* <button className="btn btn-success">Learn More</button> */}
       </div>
     </div>    
     </div>
@@ -166,7 +169,7 @@ function Home() {
       </div>
       <div className = "content1">
         <p>There are various advantages of integrating into your business systems. Outsource AI experts from DataToBiz to make the most of the advanced technology to optimize resources, and increase production.</p>
-        <button className="btn btn-success">Learn More</button>
+        {/* <button className="btn btn-success">Learn More</button> */}
       </div>
     </div>    
     </div>
@@ -181,7 +184,7 @@ function Home() {
       </div>
       <div className = "content11">
         <p>To sustain your competitive edge, you need to capitalize on the torrent of structured/unstructured, IoT and raw data crossing your borders daily</p>
-        <button className="btn btn-success">Learn More</button>
+        {/* <button className="btn btn-success">Learn More</button> */}
       </div>
     </div>    
     </div>
@@ -196,7 +199,7 @@ function Home() {
       </div>
       <div className = "content1">
         <p>UI/UX, as it has popularly come to be known, has its roots in the creator’s ability to empathize with users, understand the product’s objective, and integrate it within the organization.</p>
-        <button className="btn btn-success">Learn More</button>
+        {/* <button className="btn btn-success">Learn More</button> */}
       </div>
     </div>    
     </div>
@@ -212,7 +215,7 @@ function Home() {
       <div className = "content11">
         <p>Trying to solve all your IT challenges internally can become costly and a
            major distraction, Leveraging knowledgeable IT consulting firms.</p>
-           <button className="btn btn-success">Learn More</button>
+           {/* <button className="btn btn-success">Learn More</button> */}
       </div>
     </div>    
     </div>
