@@ -14,7 +14,7 @@ function Technologies() {
        <h4 className="bold">Deep Technologies Services</h4>
        <p className="con">BIDGO – BID GO is an Uber like application available worldwide for partners and investor capital, kicking out in 2023
 
-       <br/><br/> MTM – Mobile Thru Mobile is a Pay-Pal like application available worldwide for investor capital, kicking out in 2022
+       <br/><br/> MTM – Mobile Thru Mobile is an application like Pay-Pal available worldwide for investor capital, kicking out in 2022
                 
        <br/><br/>EHMR – Electronic Medical Health Record is a new application available for Hospitals and Outpatient Clinics and Physician Offices, kicking out in 2022.
                 

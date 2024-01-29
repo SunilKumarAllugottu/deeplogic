@@ -14,14 +14,14 @@ function Cybersecurity() {
                 <div className="col-lg  p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                   <h1 className="lean">INDUSTRY OVERVIEW</h1>
                   <h3 className="bold">What is Cybersecurity?</h3>
-                <p className="con">Cyber security refers to every aspect of protecting an organization andits employees and assets against cyber threats. As cyberattacks become more common and sophisticated and corporate networks grow more complex, a variety of cyber security solutionsare required to mitigate corporate cyber risk.:<br/><br/>
+                <p className="con">Cyber security refers to every aspect of protecting an organization and its employees and assets against cyber threats. As cyberattacks become more common and sophisticated and corporate networks grow more complex, a variety of cyber security solutions are required to mitigate corporate cyber risk.:<br/><br/>
 
                 Achieving Comprehensive Cybersecurity with Check Point A modern cybersecurity infrastructure is 
-                one that is consolidated and built from solutions that are designed to work together. This requires 
+                consolidated and built from solutions that are designed to work together. This requires 
                 partnering with a security provider with experience in protecting all of an organization’s assets 
-                against a range of cyber threats. .<br/><br/>
+                against a range of cyber threats.<br/><br/>
 
-                The Different Types of Cybersecurity Cyber security is a wide field covering several disciplines. 
+                The Different Types of Cybersecurity, Cybersecurity is a wide field covering several disciplines. 
                 It can be divided into seven main pillars:<br/> 1. Network Security Most attacks occur over the network, 
                 and network security solutions are designed to identify and block these attacks. These solutions 
                 include data and access controls such as Data Loss Prevention (DLP), IAM (Identity Access Management),
@@ -34,7 +34,7 @@ function Cybersecurity() {
                     becomes a major priority. A cloud security strategy includes cyber security solutions,
                     controls, policies, and services that help to protect an organization’s entire cloud deployment
                    (applications, data, infrastructure, etc.) against attack. While many cloud providers offer
-                    security solutions, these are often inadequate to the task of achieving enterprise-grade
+                    security solutions, these are often inadequate for the task of achieving enterprise-grade
                      security in the cloud. Supplementary third-party solutions are necessary to protect
                       against data breaches and targeted attacks in cloud environments.<br/> 3. Endpoint Security
                        The zero-trust security model prescribes creating micro-segments around data wherever 

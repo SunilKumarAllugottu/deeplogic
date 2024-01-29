@@ -14,11 +14,11 @@ function Logistics() {
        <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">TRANSFORMING PROJECTS INTO RESULTS</h2>
        <h4 className="bold">Project Management Office</h4>
-       <p className="con">We provide PMP Certified Professionals to outsource any Enterprise project in all market segments
+       <p className="con">We provide PMP Certified Professionals to outsource any Enterprise project in all market segments.
 
-       <br/><br/>We have a proven track record in Manufacturing, Pharmaceutical, Supply Chain Distribution, Healthcare, Finance Industry and Government Agencies
-       <br/><br/>We can train and help certify customer internal personnel to comply with the industry standards and best practices
-       <br/><br/>We follow PMI guidelines and certification requirements
+       <br/><br/>We have a proven track record in Manufacturing, Pharmaceutical, Supply Chain Distribution, Healthcare, Finance Industry and Government Agencies.
+       <br/><br/>We can train and help certify customer internal personnel to comply with the industry standards and best practices.
+       <br/><br/>We follow PMI guidelines and certification requirements.
        </p>
        </div>
    </div>

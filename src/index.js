@@ -17,7 +17,7 @@ import Native from "./routes/Capabilities/Native";
 import Wearable from "./routes/Capabilities/Wearable";
 import Enterprises from "./routes/Capabilities/Enterprises";
 import Energy from "./routes/Services/Energy";
-import Finantial from "./routes/Services/Finantial";
+import Financial from "./routes/Services/Financial";
 import Logistics from "./routes/Services/Logistics";
 import Technologies from "./routes/Services/Technologies";
 import { FaFacebook } from "react-icons/fa";
@@ -47,10 +47,10 @@ const AppLayout = () => {
       <div className="container-fluid footer" style={{backgroundColor:"#080710",height:"auto",width:"auto"}}>
 <div className="row" style={{marginLeft:"30px",marginRight:"30px"}}>
     <div className="col-md-4">
-        <p > <Link to="/" className="Deed">DEEPLOGIC'S</Link></p>
+        <p > <Link to="/" className="Deed">DEEPLOGICS</Link></p>
         {/* <img src={flog}/> */}
         <p className="text">Deeplogics Labs Corp. 
-        With over two decades of I.T and security consulting experience, 
+        With over two decades of IT and security consulting experience, 
         Deeplogics offers dozens of cybersecurity solutions tailored to your company’s
          budget, risk tolerance, and funding stage.</p>
          <div className="Container">
@@ -86,7 +86,7 @@ const AppLayout = () => {
           Private Cloud & Hybrid Cloud<br></br>
           Cloud Implementation<br></br>
           Cloud Security<br></br>
-          Colud Managed Services<br></br>
+          Cloud Managed Services<br></br>
           Cloud LifeCycle Services</p></div>
 
     <div className="col-md-2">
@@ -117,7 +117,7 @@ const AppLayout = () => {
      </div>
      </div>
                 <div style={{marginLeft:"50px",marginTop:"10px"}}>
-                    <h6 style={{fontSize:"12px"}}> © 2007-2023 Deeplogics Labs Corp. , All Rights Reserved.</h6>
+                    <h6 style={{fontSize:"12px"}}> © 2007-2023 Deeplogics Labs Corp., All Rights Reserved.</h6>
                 </div>
       <ScrollToTopButton/>
 
@@ -159,8 +159,8 @@ const router = createBrowserRouter([
         element: <Penetration/>,
       },
       {
-        path: "Services/Finantial",
-        element: <Finantial/>,
+        path: "Services/Financial",
+        element: <Financial/>,
       },
       {
         path: "Capabilities/Cybersecurity",

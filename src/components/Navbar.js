@@ -70,7 +70,7 @@ const Navbar = () =>{
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Cybersecurity">Cybersecurity Solutions</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Native">Native Mobile Solutions</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Wearable">Wearable Technology</NavLink>
-                                  <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Enterprises">Enterprise Mobilty Solutions</NavLink>
+                                  <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Capabilities/Enterprises">Enterprise Mobility Solutions</NavLink>
                                 </div>
 
               </li>
@@ -83,7 +83,7 @@ const Navbar = () =>{
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Services/Energy">Deeplogics Energy</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Services/Technologies">Deeplogics Technologies</NavLink>
                                   <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Services/Logistics">Deeplogics Logistics</NavLink>
-                                  <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Services/Finantial">Deeplogics Finantial</NavLink>
+                                  <NavLink  className="nav-links hov" onClick={closeMobileMenu}  to="/Services/Financial">Deeplogics Financial</NavLink>
                                 </div>
 
               </li>

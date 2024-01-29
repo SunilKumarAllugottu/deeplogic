@@ -48,9 +48,9 @@ function Home() {
                 <div className="col-sm-6 p-5" >
                   <h2 className="lean">Your premier partner for IT and Cyber Security Solutions</h2>
                   <h4 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h4>
-                <p className="con">Deeplogics Labs Corp. With over two decades of I.T. and security consulting experience, Deeplogics offers dozens of cybersecurity solutions tailored to your company’s budget, risk tolerance, and funding stage.
+                <p className="con">Deeplogics Labs Corp. With over two decades of IT and security consulting experience, Deeplogics offers dozens of cybersecurity solutions tailored to your company’s budget, risk tolerance, and funding stage.
 
-                    <br/><br/>The Deeplogics team has elite and extensive experience in both public and private sectors, and brings deep understanding of how adversaries think and what their next steps may be..
+                    <br/><br/>The Deeplogics team has elite and extensive experience in both public and private sectors and brings a deep understanding of how adversaries think and what their next steps may be.
 
                      <br/><br/>This knowledge helps the Deeplogics team stay one step ahead, watching for the behaviors that signal these likely breach attempts and building effective layers of defense. It’s a very different approach from general IT solution providers who have expanded into the cybersecurity space.
                 </p>
@@ -63,13 +63,13 @@ function Home() {
                 <div className="col-sm-6  text-white p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                   <h2 className="lean">Since 2007</h2>
                   <h4 className="bold">We Have Decades Of Work Experience!</h4>
-                  <p className="con">Provide users with appropriate view and access to requests, problems,
+                  <p className="con">Provide users with appropriate views and access to requests, problems,
                    changes, contracts, solutions, and reports.
                 </p> 
                   <h4 className="bold">Consulting & Insights</h4>
                   <p className="con">Our objective insights steer you toward the right decisions on issues that matter.</p>
                   <h4 className="bold">Research & Advisory</h4>
-                  <p className="con">Our combination of research, problem solving and hands-on experience.</p>
+                  <p className="con">Our combination of research, problem-solving, and hands-on experience.</p>
                   <h4 className="bold">Strategic Advice</h4>
                   <p className="con">Tools to help turn strategy into decisions, and execute for measurable results.</p>
             </div>
@@ -81,8 +81,8 @@ function Home() {
         <h2 className="lean">Nationwide Service, Local Expertise</h2>
                   <h4 className="bold">Offering The Latest Software And IT Services To Our Customers!</h4>
                 <p className="con" >Improve efficiency, leverage tech, and provide better customer
-                 experiences with the modern technology services available allover the world. Our skilled
-                  personnel, utilising the latest processing software, combined with decades of experience.
+                 experiences with the modern technology services available all over the world. Our skilled
+                  personnel, utilize the latest processing software, combined with decades of experience.
                 </p>
         </div>
 
@@ -147,10 +147,10 @@ function Home() {
     
     <div className = "card1" style={{backgroundImage:`url(${aibg})`}}>
       <div className = "image1" >
-        <img  className="img1" src = {ai} alt="AI"/><p className="leo">AIRTIFICIAL INTELLIGENCE</p>
+        <img  className="img1" src = {ai} alt="AI"/><p className="leo">ARTIFICIAL INTELLIGENCE</p>
       </div>
       <div className = "content1">
-        <p>There are various advantages of integrating AI into your business systems. Outsource AI experts from DataToBiz to make the most of the advanced technology to optimize resources, increase production.</p>
+        <p>There are various advantages of integrating AI into your business systems. Outsource AI experts from DataToBiz to make the most of the advanced technology to optimize resources, and increase production.</p>
         <button className="btn btn-success">Learn More</button>
       </div>
     </div>    
@@ -165,7 +165,7 @@ function Home() {
         <img  className="img1" src = {ml} alt="MACHINE"/><p className="leo">MACHINE LEARNING</p>
       </div>
       <div className = "content1">
-        <p>There are various advantages of integrating into your business systems. Outsource AI experts from DataToBiz to make the most of the advanced technology to optimize resources, increase production.</p>
+        <p>There are various advantages of integrating into your business systems. Outsource AI experts from DataToBiz to make the most of the advanced technology to optimize resources, and increase production.</p>
         <button className="btn btn-success">Learn More</button>
       </div>
     </div>    
@@ -211,7 +211,7 @@ function Home() {
       </div>
       <div className = "content11">
         <p>Trying to solve all your IT challenges internally can become costly and a
-           major distraction, Leveraging knowledgeable IT consulting firms .</p>
+           major distraction, Leveraging knowledgeable IT consulting firms.</p>
            <button className="btn btn-success">Learn More</button>
       </div>
     </div>    
@@ -400,10 +400,10 @@ function Home() {
             <img src={homebg4} alt='bg4' className="col-sm-6  text-white p-3" style={{borderRadius:"50px"}}/>
 
                 <div className="col-sm-6  text-white p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-                  <h2 className="lean" >Timely Service, And Incident Resolutions!!</h2>
+                  <h2 className="lean" >Timely Service And Incident Resolutions!!</h2>
                 <p className="con">Improve efficiency, leverage tech, and provide better customer experiences with the modern technology services available allover the world.<br/>
 
-                 Our skilled personnel, utilising the latest processing software, combined with decades of experience.
+                 Our skilled personnel utilising the latest processing software combined with decades of experience.
 
 
                 </p>
