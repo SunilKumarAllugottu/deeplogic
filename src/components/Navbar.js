@@ -59,7 +59,7 @@ const Navbar = () =>{
                 >
                   About
                 </NavLink>
-              </li>
+              </li> 
 
               
               <li className="nav-item dropdown " >
