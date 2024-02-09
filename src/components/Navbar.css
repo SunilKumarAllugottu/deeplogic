@@ -103,6 +103,7 @@
     left: -100%;
     opacity: 1;
     transition: all 0.4s ease;
+    padding: 20px;
   }
 
   .nav-menu.active {
@@ -115,10 +116,9 @@
 
   .nav-links {
     text-align: center;
-    padding: 0.6rem;
+    padding: 0.5rem;
     width: 100%;
     display: table;
-    /* text-size-adjust: 1114px; */
   }
 
   .nav-links:hover {
