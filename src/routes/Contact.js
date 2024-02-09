@@ -3,17 +3,11 @@ import { useState } from 'react';
 import pho from './Assets/phone.gif'
 import location from './Assets/location.gif'
 import ema from './Assets/email.gif'
-// import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Contact = () =>{
 
-
-	// constructor(props) 
-	// 	super(props);
-	// 	this.state = { phone: "" };
-	
   
   const [userData]=useState([]);
   const [name,setName]=useState('');
@@ -40,7 +34,6 @@ const Contact = () =>{
       progress: undefined,
       theme: "light",
       });
-    // setShow1(!show1);
   }
 
 
@@ -67,7 +60,6 @@ const Contact = () =>{
              </div>
                  <div className="group">
                    <label htmlFor="user" className="label">Phone</label>
-                   {/* <div  value={phone}  onChange={(e)=>setPhone(e.target.value)} style={{color:"#000000"}}><PhoneInput/></div> */}
                    <input className="input" value={phone}  onChange={(e)=>setPhone(e.target.value)}/>
                  </div>
                  <div className="group">
@@ -92,7 +84,6 @@ const Contact = () =>{
 
                 <div className='col-sm-6'>
                   <div className='container'> 
-                  {/* <div className='row'> */}
                     <div>
                     <img src={location} className='gif' alt='Address'/>
                       <p><b>Address</b>
@@ -116,7 +107,6 @@ const Contact = () =>{
                 </div>
     </div>
     </div>
-    {/* </div> */}
     <br/>
 			
 		<ToastContainer />

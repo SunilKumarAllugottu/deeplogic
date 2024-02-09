@@ -11,7 +11,6 @@ const Navbar = () => {
   const closeMobileMenu = () => setClick(false);
   const location = useLocation();
 
-  // Check if the current path starts with "/Capabilities"
   const isCapabilitiesActive = location.pathname.startsWith("/Capabilities");
   const isServicesActive = location.pathname.startsWith("/Services");
 

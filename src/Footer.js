@@ -11,7 +11,6 @@ const Footer = () => {
 <div className="row" style={{marginLeft:"30px",marginRight:"30px"}}>
     <div className="col-md-4">
         <p > <Link to="/" className="Deed">DEEPLOGICS</Link></p>
-        {/* <img src={flog}/> */}
         <p className="text">Deeplogics Labs Corp. 
         With over two decades of IT and security consulting experience, 
         Deeplogics offers dozens of cybersecurity solutions tailored to your company’s
