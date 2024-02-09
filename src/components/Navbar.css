@@ -12,8 +12,6 @@
 }
 .navbar.active{ 
   background:lightcyan ;
-  /* border-radius: 0px;
-  background:linear-gradient(90deg,rgb(66,2,194)0%,rgb(0,78,194)75%); */
 }
 
 .navbar-con {
@@ -57,7 +55,6 @@
 
 .nav-item {
   height: 40px;
-  border-bottom: 2px solid transparent;
 }
 
 .nav-item:hover {
@@ -78,6 +75,8 @@
 
 .activated {
   color: red;
+  border-bottom: 2px solid red;
+
 }
 
 .fa-bars {
