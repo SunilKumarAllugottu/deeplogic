@@ -21,6 +21,7 @@ import itbg from './Assets/ITbg.png'
 import mlbg from './Assets/MLbg.png'
 import dmsbg from './Assets/Dmsbg.png'
 import Card from "react-bootstrap/Card"
+import Banner from "../Banner";
 
 
 function Home() {
@@ -28,20 +29,11 @@ function Home() {
   return (
     <>
     
-    <div className="homebg" >
-    <div  className="container" style={{padding:"80px"}} > 
-                <div className="col" style={{marginTop:'90px'}}>
-                    <h1 style={{color:"#fff",fontSize:"40px"}}>Deeplogics Labs Corp.</h1>
-                    <h2 style={{color:"#fff",fontSize:"38px"}}>Cyber Security Solutions.</h2>
-                    <p className="con" style={{color:"#fff",fontSize:"20px"}}>
-                        Deeplogics is the market leading solution for recovering
-                       and examining digital data<br/> from the broadest range of digital
-                       devices, applications, the cloud and warrant returns.     </p>
-                </div>
-             </div>
-             </div>
+    <div  >
+      <Banner/>
+     </div>
      <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px",}}> 
-            <div className="row" style={{marginTop:"-40px"}}>
+            <div className="row" style={{marginTop:"-0px"}}>
                 <img src={partner}  style={{ height:"400px",borderRadius:"50px",marginTop:"25px"}} alt='partner' className="col-sm-6 "/>
                 <div className="col-sm-6 p-5" >
                   <h2 className="lean">Your premier partner for IT and Cyber Security Solutions</h2>

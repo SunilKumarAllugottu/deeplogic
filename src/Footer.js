@@ -63,10 +63,9 @@ const Footer = () => {
     <div className="col-md-2" >
         
         <p className="Deep">Contact Us</p>
-        <p className="text">Montecasino 234,<br/> Calle Pino,<br></br>
-          Toa Alta, PR,USA-00953<br></br>
-          Email: info@deeplogics.com<br></br>
-          Phone: +1 (787)-387-9807</p>
+        <p className="text">Montecasino 234,Calle Pino,Toa Alta, PR,USA-00953</p>
+        <p className="text" >Email: info@deeplogics.com</p>
+        <p className="text">Phone: +1 (787)-387-9807</p>
           
 
 

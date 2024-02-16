@@ -6,6 +6,9 @@ import ema from './Assets/email.gif'
 import 'react-phone-input-2/lib/style.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import homebg from './Assets/Firefly.png'
+
+
 const Contact = () =>{
 
   
@@ -39,9 +42,12 @@ const Contact = () =>{
 
   return (
     <>
-    <div className="homebg" style={{height:"auto"}}>
-            <h1 className="header" style={{color:"white"}}>Contact Us</h1>
-    </div>
+    <div className="cybersecurity-bg">
+        <div className="header-container">
+          <h1 className="header">Contact Us</h1>
+        </div>
+        <img className="homebg" src={homebg} alt="banner" />
+      </div>
     <br/>
     <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
     <div className="row">
@@ -116,9 +122,3 @@ const Contact = () =>{
 }
 
 export default Contact;
-
-
-
-
-
-

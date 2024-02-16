@@ -57,7 +57,7 @@
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #0000EE;
 }
 
 
@@ -73,8 +73,8 @@
 }
 
 .activated {
-  color: red;
-  border-bottom: 2px solid red;
+  color: #0000EE;
+  border-bottom: 2px solid #0000EE;
 
 }
 
@@ -121,9 +121,9 @@
   }
 
   .nav-links:hover {
-    color: red;
-    transform: scale(1.2);
-    transition: all 0.3s ease;
+    color: #0000EE;
+    /* transform: scale(1.2);
+    transition: all 0.3s ease; */
   }
 
   .nav-item:hover {
@@ -175,9 +175,9 @@
 }
 
 .hov:hover {
-  color: red;
-  transform: scale(1.1);
-  transition: all 0.3s ease;
+  color: #0000EE;
+  /* transform: scale(1.1);
+  transition: all 0.3s ease; */
 }
 
 .hov{
@@ -190,3 +190,27 @@ font-size: medium;
   mix-blend-mode:screen;
   height: 70px;
 } */
+
+@media screen and (max-width: 425px){
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:lightcyan;
+    width:200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    z-index: 1;
+  }
+  .nav-links {
+    color:#000000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    font-size: 1rem;
+    
+  }
+
+}

@@ -1,11 +1,17 @@
 import React from "react";
-import tech from './Assets/keyboard-social-business-young-person.jpg'
+import tech from './Assets/keyboard-social-business-young-person.jpg';
+import homebg from '../Assets/Firefly.png';
+
+
 function Technologies() {
   return (
     <>
-    <div className="homebg" style={{height:"auto"}}>
-<h1 className="header"style={{color:"white"}}>Deeplogics Technologies</h1>
-</div>
+    <div className="cybersecurity-bg">
+        <div className="header-container">
+          <h1 className="header">Deeplogics Technologies</h1>
+        </div>
+        <img className="homebg" src={homebg} alt="banner" />
+      </div>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
        <img src={tech} style={{margin:"auto",top:"0",height:"400px",width:"auto",borderRadius:"50px"}} alt='Energy' className="col-lg p-4"/>

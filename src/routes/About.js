@@ -1,10 +1,16 @@
 import React from "react";
-import pic1 from './Assets/2col-cybersecurity-services-fy20.webp'
+import pic1 from './Assets/2col-cybersecurity-services-fy20.webp';
+import homebg from './Assets/Firefly.png';
+
+
 const AboutUs = () =>{
     return(
         <>
-        <div className="homebg" style={{height:"auto"}}>
-        <h1 className="header" style={{color:"white"}}>ABOUT US</h1>
+        <div className="cybersecurity-bg">
+        <div className="header-container">
+          <h1 className="header">About Us</h1>
+        </div>
+        <img className="homebg" src={homebg} alt="banner" />
       </div>
       <br/>
  

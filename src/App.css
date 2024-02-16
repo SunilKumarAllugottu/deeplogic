@@ -1,35 +1,61 @@
 .bg{
-  /* background-image: url("/src/components/Assets/93190.jpg"); */
   background-image: url("/src/components/Assets/BG.jpg");
   height:"auto";
-  background-size: 'cover';
+  background-size: 100% 100%;
   background-repeat: 'no-repeat';
   background-attachment: fixed; 
-
 }
+
 .homebg{
-  background-image: url("/src/components/Assets/Firefly.png");
-  width: 100%;
-  height: 625px;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed; 
-
-  /* background-image: url("/src/components/Assets/93190.jpg"); */
-  /* height:350px; */
-  /* width: 1200px; */
-  /* width: 800px; */
-  /* background-size: 'cover'; */
-  /* background-repeat: 'no-repeat'; */
+  width: 100vw;
+  height:50vh;
 }
 
+/* .header{
+  position: absolute;
+  color: #fff;
+  width: 100vw;
+ 
+}
 
+ 
+.child-banner {
+    position: absolute;
+    top: 80vh;
+    width: 60%;
+  } */
 
-@media screen and (max-width: 960px) {
-  .homebg{
-    background-attachment: scroll;
+  /* Cybersecurity.css */
+
+.cybersecurity-bg {
+  position: relative;
+}
+
+.header-container {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  color: white; /* Adjust the color as needed */
+  font-size: 3vw; /* Adjust the font size using viewport units for responsiveness */
+  text-align: center; /* Center align the header text */
+}
+
+.homebg {
+  width: 100%; /* Make the background image cover the entire container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive styles using media queries */
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 3vw; /* Adjust font size for smaller screens */
   }
 }
+
 
 
 .about,
@@ -62,6 +88,8 @@
   .contact {
     font-size: 2.5rem;
   }
+
+  
 
   .page-icon {
     margin-left: 1rem;
@@ -101,18 +129,7 @@ p.text{
   padding: 25px;
 }
 
-.header{
-  color: #000000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 400px;
-  /* padding: 80px; */
-  background-color: transparent;
 
-}
 
 .Deep{
       font-family:Georgia, 'Times New Roman', Times, serif ;
@@ -192,7 +209,7 @@ p.text{
 }
 
 .container1 .card1 .image1 .img1 {
-  max-width : 90%;
+  max-width : 40%;
   border-radius : 100px;  
 }
  

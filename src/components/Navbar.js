@@ -8,8 +8,12 @@ import Logo from "./Assets/deeplogics logo1.png";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
   const location = useLocation();
+
+  const handleLinkClick = () => {
+    setClick(false); // Close the mobile menu
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top
+  };
 
   const isCapabilitiesActive = location.pathname.startsWith("/Capabilities");
   const isServicesActive = location.pathname.startsWith("/Services");
@@ -19,7 +23,7 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#000000" }}>
         <nav className='navbar active'>
           <div className="navbar-con containernav fs-6">
-            <Link to="/" className="navbar-logo navbar-icon" onClick={closeMobileMenu}>
+            <Link to="/" className="navbar-logo navbar-icon" onClick={handleLinkClick}>
               <img className="logo" src={Logo} alt="Deeplogics" />
             </Link>
             <div className="menu-icon" onClick={handleClick}>
@@ -33,7 +37,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
-                  onClick={closeMobileMenu}
+                  onClick={handleLinkClick}
                 >
                   Home
                 </NavLink>
@@ -45,7 +49,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
-                  onClick={closeMobileMenu}
+                  onClick={handleLinkClick}
                 >
                   About
                 </NavLink>
@@ -54,22 +58,22 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <div className={`dropbtn nav-links dropdown-toggle ${isCapabilitiesActive ? "activated" : ""}`} style={{ cursor: "pointer" }}>Capabilities</div>
                 <div className="dropdown-content">
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Capabilities/Penetration">Penetration Testing</NavLink>
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Capabilities/Vulnerability">Vulnerability Assessment</NavLink>
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Capabilities/Cybersecurity">Cybersecurity Solutions</NavLink>
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Capabilities/Native">Native Mobile Solutions</NavLink>
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Capabilities/Wearable">Wearable Technology</NavLink>
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Capabilities/Enterprises">Enterprise Mobility Solutions</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Penetration">Penetration Testing</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Vulnerability">Vulnerability Assessment</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Cybersecurity">Cybersecurity Solutions</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Native">Native Mobile Solutions</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Wearable">Wearable Technology</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Enterprises">Enterprise Mobility Solutions</NavLink>
                 </div>
               </li>
 
               <li className="nav-item dropdown">
                 <div className={`dropbtn nav-links dropdown-toggle ${isServicesActive ? "activated" : ""}`} style={{ cursor: "pointer" }}>Services</div>
                 <div className="dropdown-content">
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Services/Energy">Deeplogics Energy</NavLink>
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Services/Technologies">Deeplogics Technologies</NavLink>
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Services/Logistics">Deeplogics Logistics</NavLink>
-                  <NavLink className="nav-links hov" onClick={closeMobileMenu} to="/Services/Financial">Deeplogics Financial</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Services/Energy">Deeplogics Energy</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Services/Technologies">Deeplogics Technologies</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Services/Logistics">Deeplogics Logistics</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Services/Financial">Deeplogics Financial</NavLink>
                 </div>
               </li>
               
@@ -80,7 +84,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
-                  onClick={closeMobileMenu}
+                  onClick={handleLinkClick}
                 >
                   Contact
                 </NavLink>

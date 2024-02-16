@@ -1,11 +1,18 @@
 import React from "react";
-import fin from './Assets/image-4.png'
+import fin from './Assets/image-4.png';
+import homebg from '../Assets/Firefly.png';
+
+
+
 function Financial() {
   return (
     <>
-    <div className="homebg" style={{height:"auto"}}>
-<h1 className="header" style={{color:"white"}}>Deeplogics Financial Capital</h1>
-</div>
+    <div className="cybersecurity-bg">
+        <div className="header-container">
+          <h1 className="header">Deeplogics Financial</h1>
+        </div>
+        <img className="homebg" src={homebg} alt="banner" />
+      </div>
 <br/>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">

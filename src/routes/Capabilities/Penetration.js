@@ -1,11 +1,18 @@
 import React from 'react'
 import ptest from './Assets/9-Types.png'
+import homebg from "../Assets/Firefly.png"
+
+
+
 const Penetration = () => {
   return (
     <>
-    <div className="homebg" style={{height:"auto"}}>
-<h1 className="header"style={{color:"white"}}>Penetration Testing</h1>
-</div>
+    <div className="cybersecurity-bg">
+        <div className="header-container">
+          <h1 className="header">Penetration Testing</h1>
+        </div>
+        <img className="homebg" src={homebg} alt="banner" />
+      </div>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
        <img src={ptest} style={{margin:"auto",top:"0",height:"400px",width:"auto",borderRadius:"50px"}} alt='Energy' className="col-lg p-4"/>

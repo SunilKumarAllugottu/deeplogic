@@ -1,11 +1,15 @@
 import React from "react";
 import pic2 from "./Assets/pie chart.png"
+import homebg from "../Assets/Firefly.png"
 
 function Cybersecurity() {
   return (
     <div className="Cybersecurity">
-      <div className="homebg" style={{height:"auto"}}>
-        <h1 className="header"style={{color:"white"}}>Cybersecurity Solutions</h1>
+     <div className="cybersecurity-bg">
+        <div className="header-container">
+          <h1 className="header">Cybersecurity Solutions</h1>
+        </div>
+        <img className="homebg" src={homebg} alt="banner" />
       </div>
       <br/>
       <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 

@@ -1,10 +1,14 @@
 import wea from './Assets/image-2.png'
+import homebg from "../Assets/Firefly.png"
 
 const Wearable =() =>{
     return(
          <>
-             <div className="homebg" style={{height:"auto"}}>
-        <h1 className="header" style={{color:"white"}}>Wearable Technologie</h1>
+          <div className="cybersecurity-bg">
+        <div className="header-container">
+          <h1 className="header">Wearable Technologie</h1>
+        </div>
+        <img className="homebg" src={homebg} alt="banner" />
       </div>
       <br/>
         <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 

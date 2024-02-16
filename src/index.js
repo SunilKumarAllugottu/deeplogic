@@ -42,7 +42,6 @@ const AppLayout = () => {
       <Navbar />
       <Outlet />
       <Footer/>
-      
       <ScrollToTopButton/>
       </div>
     </>
