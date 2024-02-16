@@ -1,10 +1,10 @@
 import wea from './Assets/designn web.png'
-import homebg from "../Assets/Firefly.png"
+import homebg from "./Assets/Firefly.png"
 
 const Enterprises =() =>{
     return(
-         <>
-         
+   <>
+         <div className='Enterprise'>
         <div className="cybersecurity-bg">
         <div className="header-container">
           <h1 className="header">Enterprise Mobility Solutions</h1>
@@ -14,8 +14,10 @@ const Enterprises =() =>{
       <br/>
         <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}>          
             <div className="row">
-                <img src={wea} style={{margin:"auto",top:"0",height:"350px",width:"500px"}} alt='werable Tech' className="col-lg"/>
-                <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+            <div className="image-container col-lg">
+                <img src={wea} alt='Enterprises' className="responsive-image"/>
+            </div>
+            <div className="col-lg " style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",padding:"33px"}}>
 
                 <p className="con">Mobile Application Development Services has grown horizons and attained huge admiration of late. Enterprises across the world are embracing this technological advancement due to the incredible success of mobile app development. Mobility became basic to the way organizations implement their businesses.
 
@@ -39,7 +41,8 @@ const Enterprises =() =>{
             </div>
         </div>
         <br/>
-         </>
+        </div>
+  </>
     );
 }
 export default Enterprises;

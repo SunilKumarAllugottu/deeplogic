@@ -1,6 +1,6 @@
 import React from "react";
 import fin from './Assets/image-4.png';
-import homebg from '../Assets/Firefly.png';
+import homebg from './Assets/Firefly.png';
 
 
 
@@ -16,7 +16,9 @@ function Financial() {
 <br/>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-       <img src={fin} style={{margin:"auto",top:"0",height:"450px"}} alt='Energy' className="col-lg"/>
+   <div className="image-container col-lg">
+       <img src={fin}  alt='Financial' className="responsive-image"/>
+       </div>
        <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">Deeplogics and Eagle Investments Group Partnerhship</h2>
        <h4 className="bold">CAPITAL INVESTMENT AND COMMERCIAL LOANS FOR</h4>

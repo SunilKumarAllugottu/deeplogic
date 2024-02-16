@@ -1,6 +1,6 @@
 import React from "react";
-import tech from './Assets/keyboard-social-business-young-person.jpg';
-import homebg from '../Assets/Firefly.png';
+import tech from './Assets/connected-city.jpg';
+import homebg from './Assets/Firefly.png';
 
 
 function Technologies() {
@@ -14,7 +14,9 @@ function Technologies() {
       </div>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-       <img src={tech} style={{margin:"auto",top:"0",height:"400px",width:"auto",borderRadius:"50px"}} alt='Energy' className="col-lg p-4"/>
+   <div className="image-container col-lg p-4">
+       <img src={tech}  alt='Technologies' style={{borderRadius:'10px'}} className="responsive-image"/>
+       </div>
        <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">SPECIAL PROJECTS</h2>
        <h4 className="bold">Deep Technologies Services</h4>

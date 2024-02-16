@@ -1,6 +1,6 @@
 import React from "react";
 import pic2 from "./Assets/pie chart.png"
-import homebg from "../Assets/Firefly.png"
+import homebg from "./Assets/Firefly.png"
 
 function Cybersecurity() {
   return (
@@ -14,7 +14,9 @@ function Cybersecurity() {
       <br/>
       <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-                <img src={pic2}  style={{margin:"auto"}}alt='Service' className=" pic col-lg   p-3"></img>
+            <div className="image-container col-lg p-3">
+                <img src={pic2}  alt='cybersecurity' className=" responsive-image"></img>
+            </div>
                 <div className="col-lg  p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                   <h1 className="lean">INDUSTRY OVERVIEW</h1>
                   <h3 className="bold">What is Cybersecurity?</h3>

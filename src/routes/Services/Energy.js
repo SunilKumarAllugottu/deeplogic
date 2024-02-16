@@ -1,6 +1,6 @@
 import React from "react";
 import Ene from "./Assets/image-1.png" 
-import homebg from '../Assets/Firefly.png';
+import homebg from './Assets/Firefly.png';
 
 function Energy() {
   return (
@@ -14,7 +14,9 @@ function Energy() {
 <br/>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-       <img src={Ene} style={{margin:"auto",top:"0",height:"250px",width:"500px"}} alt='Energy' className="col-lg"/>
+   <div className="image-container col-lg">
+       <img src={Ene} alt='Energy' className="responsive-image"/>
+       </div>
        <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">Deeplogics Energy</h2>
        <h4 className="bold">Why is the Deeplogics Energy?</h4>

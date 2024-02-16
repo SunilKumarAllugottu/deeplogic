@@ -33,8 +33,10 @@ function Home() {
       <Banner/>
      </div>
      <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px",}}> 
-            <div className="row" style={{marginTop:"-0px"}}>
-                <img src={partner}  style={{ height:"400px",borderRadius:"50px",marginTop:"25px"}} alt='partner' className="col-sm-6 "/>
+            <div className="row">
+            <div className="image-container col-sm-6 p-4">
+                <img src={partner} style={{borderRadius:"10px"}}  alt='partner' className="responsive-image"/>
+            </div>
                 <div className="col-sm-6 p-5" >
                   <h2 className="lean">Your premier partner for IT and Cyber Security Solutions</h2>
                   <h4 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h4>
@@ -67,7 +69,8 @@ function Home() {
             </div>
         </div>
         <br/><br/><br/>
-        <div className="container containbg"style={{textAlign:"center",padding:"50px",borderRadius:"50px",boxShadow:"0px 2px 15px rgba(0,0,0,.1)"}} >
+        
+        <div className="container"style={{textAlign:"center",padding:"50px",borderRadius:"50px",backgroundColor:'#f5f5f5'}} >{/* boxShadow:"0px 2px 15px rgba(0,0,0,.1)", */}
         <h2 className="lean">Nationwide Service, Local Expertise</h2>
                   <h4 className="bold">Offering The Latest Software And IT Services To Our Customers!</h4>
                 <p className="con" >Improve efficiency, leverage tech, and provide better customer
@@ -370,6 +373,7 @@ function Home() {
         </div>
         <br/>
 
-     </> );
+     </>
+      );
 }
 export default Home;

@@ -1,5 +1,5 @@
 import wea from './Assets/image-2.png'
-import homebg from "../Assets/Firefly.png"
+import homebg from "./Assets/Firefly.png"
 
 const Wearable =() =>{
     return(
@@ -13,7 +13,9 @@ const Wearable =() =>{
       <br/>
         <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-                <img src={wea} style={{margin:"auto",top:"0",height:"auto",width:"auto",borderRadius:"50px"}} alt='werable Tech' className="col-lg p-4"/>
+            <div className="image-container col-lg p-4">
+                <img src={wea} style={{borderRadius:'10px'}} alt='werable Tech' className="responsive-image"/>
+            </div>
                 <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
 
                 <p className="con"><b>Deeplogics Labs Corp.</b> is the world’s fastest-growing mobility company, developed more than 150+ result-oriented mobile apps and games for businesses of all sorts and all scales across the world. Following successfully delivering cloud computing solutions, Deeplogics Labs Corp. has stepped forward to create innovative wearable solutions to enhance your business performance.

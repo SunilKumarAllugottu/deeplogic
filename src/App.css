@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 .bg{
-  background-image: url("/src/components/Assets/BG.jpg");
+  background-image: url("/src/components/Assets/web-page-3.png");
   height:"auto";
   background-size: 100% 100%;
   background-repeat: 'no-repeat';
   background-attachment: fixed; 
+  opacity: 1;
 }
 
 .homebg{
@@ -39,20 +44,19 @@
 }
 
 .header {
-  color: white; /* Adjust the color as needed */
-  font-size: 3vw; /* Adjust the font size using viewport units for responsiveness */
-  text-align: center; /* Center align the header text */
+  color: white; 
+  font-size: 3vw; 
+  text-align: center; 
 }
 
 .homebg {
-  width: 100%; /* Make the background image cover the entire container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; 
+  height: auto; 
 }
 
-/* Responsive styles using media queries */
 @media screen and (max-width: 768px) {
   .header {
-    font-size: 3vw; /* Adjust font size for smaller screens */
+    font-size: 5vw; 
   }
 }
 
@@ -151,13 +155,6 @@ p.text{
 
 } 
 
-.pic{
- width: 50%;
- height: 100%;
-}
-
-
-
 
 
 
@@ -209,8 +206,8 @@ p.text{
 }
 
 .container1 .card1 .image1 .img1 {
-  max-width : 40%;
-  border-radius : 100px;  
+  max-width : 65%;
+  border-radius : 50%;
 }
  
 .container1 .card1 .content1 {
@@ -360,16 +357,6 @@ p.c{
   }
 }
 
-
-
-
-
-
-
-
-* {
-  box-sizing: border-box;
-}
 
 /* Float four columns side by side */
   .column {
@@ -631,3 +618,46 @@ color:red ;
 /* ::-webkit-scrollbar-thumb:hover {
   background: #f5f6f7; 
 } */
+
+
+.responsive-image {
+  width: 100%; /* Set the width of the image to fill its container */
+  height:auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+.image-container {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+@media screen and (min-width:992px) {
+  .responsive-image {
+    width: 80%; /* Set the width of the image to fill its container */
+    height:auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally within its container */
+  }
+  
+  .image-container {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+}
+@media (min-width:725px) and (max-width:992px) {
+  .responsive-image {
+    width: 60%; /* Set the width of the image to fill its container */
+    height:auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally within its container */
+  }
+  
+  .image-container {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+}

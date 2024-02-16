@@ -1,5 +1,5 @@
 import React from "react";
-import pic1 from './Assets/2col-cybersecurity-services-fy20.webp';
+import pic1 from './Assets/2col-cybersecurity-services-fy20.png';
 import homebg from './Assets/Firefly.png';
 
 
@@ -15,8 +15,10 @@ const AboutUs = () =>{
       <br/>
  
         <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
-            <div className="row">
-                <img src={pic1} style={{height:"600px",width:"auto",margin:"auto",top:"0"}} alt='About Us' className="col-lg   p-3"/>
+            <div className="row ">
+            <div className="image-container col-lg p-3">
+                <img src={pic1} className="responsive-image " alt='About Us'  /> 
+            </div>
                 <div className="col-lg p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                   <h2 className="lean">Timely Service Delivery & Incident Resolutions!!</h2>
                   <h4 className="bold">YOUR CYBERSECURITY PARTNER</h4>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ptest from './Assets/9-Types.png'
-import homebg from "../Assets/Firefly.png"
+import homebg from "./Assets/Firefly.png"
 
 
 
@@ -13,10 +13,13 @@ const Penetration = () => {
         </div>
         <img className="homebg" src={homebg} alt="banner" />
       </div>
+      <br/>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-       <img src={ptest} style={{margin:"auto",top:"0",height:"400px",width:"auto",borderRadius:"50px"}} alt='Energy' className="col-lg p-4"/>
-       <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+   <div className="image-container col-lg p-4">
+       <img src={ptest} style={{borderRadius:"10px"}} alt='penetration' className="responsive-image"/>
+   </div>
+       <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",padding:"33px"}}>
        <p className="con" style={{fontWeight:"700"}}>Penetration testing, also known as ethical hacking, is a key component of offensive security. The idea is to simulate a cyberattack on an organization's infrastructure to uncover vulnerabilities before actual hackers do. Here are some types of penetration testing:</p>
        <p className="con">1.<b> Network Penetration Testing </b> : This involves testing the security of the organization's network, including servers, network devices, and other network endpoints. It could also involve simulating a network-based ransomware attack to understand its impact.</p>
        <p className="con">2.<b> Web Application Penetration Testing </b> : This type of penetration testing involves exploiting vulnerabilities in web applications, which are typically one of the most frequently attacked components of an organization's infrastructure.</p>

@@ -1,6 +1,6 @@
 import React from "react";
 import Logistic from './Assets/image-3.png';
-import homebg from '../Assets/Firefly.png';
+import homebg from './Assets/Firefly.png';
 
 
 
@@ -17,7 +17,9 @@ function Logistics() {
 
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-       <img src={Logistic} style={{height:"400px",width:"auto"}} alt='Energy' className="col-lg"/>
+   <div className="image-container col-lg">
+       <img src={Logistic} alt='Logistics' className="responsive-image"/>
+       </div>
        <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">TRANSFORMING PROJECTS INTO RESULTS</h2>
        <h4 className="bold">Project Management Office</h4>
