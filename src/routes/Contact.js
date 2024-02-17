@@ -49,9 +49,9 @@ const Contact = () =>{
         <img className="homebg" src={homebg} alt="banner" />
       </div>
     <br/>
-    <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}>
+    <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"2%"}}>
     <div className="row">
-    <div className="col-sm-6">
+    <div className="col-sm-7">
       <br/> 
     <div className="login-wrap">
         <div className="login-html">
@@ -88,7 +88,7 @@ const Contact = () =>{
       <br/>
       </div>
 
-                <div className='col-sm-6'>
+                <div className='col-sm-5'>
                   <div className='container'> 
                     <div>
                     <img src={location} className='gif' alt='Address'/>
