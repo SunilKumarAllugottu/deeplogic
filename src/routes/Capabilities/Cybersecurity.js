@@ -14,8 +14,10 @@ function Cybersecurity() {
       <br/>
       <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-            <div className="image-container col-lg p-3">
+            <div className="col-lg p-3">
+            <div className="image-container">
                 <img src={pic2}  alt='cybersecurity' className=" responsive-image"></img>
+            </div>
             </div>
                 <div className="col-lg  p-3" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                   <h1 className="lean">INDUSTRY OVERVIEW</h1>

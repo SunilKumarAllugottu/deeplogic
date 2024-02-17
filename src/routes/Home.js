@@ -34,10 +34,12 @@ function Home() {
      </div>
      <div className="container mt-3" style={{backgroundColor:'#F0F8FF',borderRadius:"25px",}}> 
             <div className="row">
-            <div className="image-container col-sm-6 p-4">
+            <div className="col-lg-6 p-4">
+            <div className="image-container">
                 <img src={partner} style={{borderRadius:"10px"}}  alt='partner' className="responsive-image"/>
             </div>
-                <div className="col-sm-6 p-5" >
+            </div>
+                <div className="col-lg-6 p-4" >
                   <h2 className="lean">Your premier partner for IT and Cyber Security Solutions</h2>
                   <h4 className="bold">We anticipate your IT and cyber security needs before you know what they are.</h4>
                 <p className="con">Deeplogics Labs Corp. With over two decades of IT and security consulting experience, Deeplogics offers dozens of cybersecurity solutions tailored to your company’s budget, risk tolerance, and funding stage.

@@ -14,10 +14,13 @@ const Penetration = () => {
         <img className="homebg" src={homebg} alt="banner" />
       </div>
       <br/>
-<div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
+<div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px",}}> 
    <div className="row">
-   <div className="image-container col-lg p-4">
-       <img src={ptest} style={{borderRadius:"10px"}} alt='penetration' className="responsive-image"/>
+   <div className="col-lg p-4">
+   <div className="image-container ">
+    
+       <img src={ptest} style={{borderRadius:"10px",position:"stickey",top:"0px",}} alt='penetration' className="responsive-image"/>
+   </div>
    </div>
        <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",padding:"33px"}}>
        <p className="con" style={{fontWeight:"700"}}>Penetration testing, also known as ethical hacking, is a key component of offensive security. The idea is to simulate a cyberattack on an organization's infrastructure to uncover vulnerabilities before actual hackers do. Here are some types of penetration testing:</p>

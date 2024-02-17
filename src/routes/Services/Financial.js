@@ -16,10 +16,12 @@ function Financial() {
 <br/>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-   <div className="image-container col-lg">
+   <div className="col-lg p-4">
+   <div className="image-container">
        <img src={fin}  alt='Financial' className="responsive-image"/>
        </div>
-       <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+       </div>
+       <div className="col-lg p-4" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">Deeplogics and Eagle Investments Group Partnerhship</h2>
        <h4 className="bold">CAPITAL INVESTMENT AND COMMERCIAL LOANS FOR</h4>
        <p className="con">1. Retail Stores 2. Office Buildings 3. Industrial / Warehouse 4. Municipal Buildings/Infrastructures 5. Student Housing 6.Tenant improvement programs / green renovations 7. Hospitality 8. Transportation and Roads 9. Real Estate 10. Hospitals 11. Special use properties (data centers, gas stations, convenience stores, refrigerated storage, etc.) 12. Renewable energy with power purchase agreements (wind, solar, geothermal, biomass, etc.) 13.Energy Saving projects 14. Educational Projects

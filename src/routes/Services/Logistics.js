@@ -17,8 +17,10 @@ function Logistics() {
 
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-   <div className="image-container col-lg">
+   <div className="col-lg p-4">
+   <div className="image-container">
        <img src={Logistic} alt='Logistics' className="responsive-image"/>
+       </div>
        </div>
        <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">TRANSFORMING PROJECTS INTO RESULTS</h2>

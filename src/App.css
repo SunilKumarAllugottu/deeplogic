@@ -625,6 +625,7 @@ color:red ;
   height:auto; /* Maintain aspect ratio */
   display: block; /* Ensure the image is displayed as a block element */
   margin: 0 auto; /* Center the image horizontally within its container */
+  
 }
 
 .image-container {
@@ -633,20 +634,24 @@ color:red ;
   overflow: hidden; /* Hide any overflowing content */
 }
 
-@media screen and (min-width:992px) {
-  .responsive-image {
-    width: 80%; /* Set the width of the image to fill its container */
-    height:auto; /* Maintain aspect ratio */
-    display: block; /* Ensure the image is displayed as a block element */
-    margin: 0 auto; /* Center the image horizontally within its container */
-  }
-  
+@media screen and (min-width: 992px) {
   .image-container {
+    position: sticky; /* Set the container to sticky positioning */
+    top: 150px; /* Adjust the top position as needed */
     max-width: 100%;
     height: auto; /* Maintain aspect ratio */
     overflow: hidden; /* Hide any overflowing content */
   }
+
+  .responsive-image {
+    width: 80%; /* Set the width of the image to fill its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally within its container */
+  }
 }
+
+
 @media (min-width:725px) and (max-width:992px) {
   .responsive-image {
     width: 60%; /* Set the width of the image to fill its container */
@@ -660,4 +665,10 @@ color:red ;
     height: auto; /* Maintain aspect ratio */
     overflow: hidden; /* Hide any overflowing content */
   }
+}
+
+
+.icon-space {
+  display: inline-block; 
+  width: 10%; 
 }

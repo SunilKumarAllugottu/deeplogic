@@ -11,13 +11,16 @@ function Technologies() {
           <h1 className="header">Deeplogics Technologies</h1>
         </div>
         <img className="homebg" src={homebg} alt="banner" />
-      </div>
+      </div> <br/>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-   <div className="image-container col-lg p-4">
+   <div className="col-lg p-4">
+   <div className="image-container">
        <img src={tech}  alt='Technologies' style={{borderRadius:'10px'}} className="responsive-image"/>
        </div>
-       <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+       </div>
+      
+       <div className="col-lg p-4" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">SPECIAL PROJECTS</h2>
        <h4 className="bold">Deep Technologies Services</h4>
        <p className="con">BIDGO – BID GO is an Uber like application available worldwide for partners and investor capital, kicking out in 2023

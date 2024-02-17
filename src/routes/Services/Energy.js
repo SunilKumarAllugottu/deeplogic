@@ -14,10 +14,12 @@ function Energy() {
 <br/>
 <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
    <div className="row">
-   <div className="image-container col-lg">
+   <div className="col-lg p-4">
+   <div className="image-container">
        <img src={Ene} alt='Energy' className="responsive-image"/>
        </div>
-       <div className="col-lg" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+       </div>
+       <div className="col-lg p-4" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
        <h2 className="lean">Deeplogics Energy</h2>
        <h4 className="bold">Why is the Deeplogics Energy?</h4>
        <p className="con">Deeplogics offers a diverse renewable portfolio of solutions in solar, wind, biomass, and waste-to-energy with synthetic diesel, oil, and gas.

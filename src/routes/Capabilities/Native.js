@@ -13,8 +13,10 @@ const Native =() =>{
       <br/>
         <div className="container" style={{backgroundColor:'#F0F8FF',borderRadius:"25px"}}> 
             <div className="row">
-            <div className="image-container col-lg">
+            <div className="col-lg">
+            <div className="image-container">
                 <img src={nat} style={{borderRadius:"10px"}} alt='Native' className="responsive-image"/>
+            </div>
             </div>
                 <div className="col-lg p-4" style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
                 <p className="con"><b>Is</b> your company optimized and ready for the mobile marketplace? A SmartPhone is an extension of human evolution, and we’ve now reached a point where it’s inextricable from our daily routines at home, at work, and play.
