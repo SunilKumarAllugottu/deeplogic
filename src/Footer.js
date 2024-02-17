@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="container-fluid footer" style={{backgroundColor:"#080710",height:"auto",width:"auto"}}>
 <div className="row" style={{marginLeft:"30px",marginRight:"30px"}}>
     <div className="col-md-4">
-        <p > <Link to="/" className="Deed">DEEPLOGICS</Link></p>
+        <p className='Deed'> DEEPLOGICS</p>
         <p className="text">Deeplogics Labs Corp. 
         With over two decades of IT and security consulting experience, 
         Deeplogics offers dozens of cybersecurity solutions tailored to your company’s

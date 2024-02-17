@@ -58,22 +58,22 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <div className={`dropbtn nav-links dropdown-toggle ${isCapabilitiesActive ? "activated" : ""}`} style={{ cursor: "pointer" }}>Capabilities</div>
                 <div className="dropdown-content">
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Penetration">Penetration Testing</NavLink>
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Vulnerability">Vulnerability Assessment</NavLink>
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Cybersecurity">Cybersecurity Solutions</NavLink>
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Native">Native Mobile Solutions</NavLink>
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Wearable">Wearable Technology</NavLink>
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Capabilities/Enterprises">Enterprise Mobility Solutions</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Penetration">Penetration Testing</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Vulnerability">Vulnerability Assessment</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Cybersecurity">Cybersecurity Solutions</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Native">Native Mobile Solutions</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Wearable">Wearable Technology</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Enterprises">Enterprise Mobility Solutions</NavLink>
                 </div>
               </li>
 
               <li className="nav-item dropdown">
                 <div className={`dropbtn nav-links dropdown-toggle ${isServicesActive ? "activated" : ""}`} style={{ cursor: "pointer" }}>Services</div>
                 <div className="dropdown-content">
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Services/Energy">Deeplogics Energy</NavLink>
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Services/Technologies">Deeplogics Technologies</NavLink>
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Services/Logistics">Deeplogics Logistics</NavLink>
-                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Services/Financial">Deeplogics Financial</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Energy">Deeplogics Energy</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Technologies">Deeplogics Technologies</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Logistics">Deeplogics Logistics</NavLink>
+                  <NavLink className="nav-links hov" onClick={handleLinkClick} to="/Financial">Deeplogics Financial</NavLink>
                 </div>
               </li>
               

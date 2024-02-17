@@ -63,43 +63,43 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "Services/Energy",
+        path: "Energy",
         element: <Energy/>,
       },
       {
-        path: "Services/Technologies",
+        path: "Technologies",
         element: <Technologies/>,
       },
       {
-        path: "Services/Logistics",
+        path: "Logistics",
         element: <Logistics/>,
       },
       {
-        path: "Capabilities/Vulnerability",
+        path: "Vulnerability",
         element: <Vulnerability/>,
       },
       {
-        path: "Capabilities/Penetration",
+        path: "Penetration",
         element: <Penetration/>,
       },
       {
-        path: "Services/Financial",
+        path: "Financial",
         element: <Financial/>,
       },
       {
-        path: "Capabilities/Cybersecurity",
+        path: "Cybersecurity",
         element: <Cybersecurity />,
       },
       {
-        path: "Capabilities/Enterprises",
+        path: "Enterprises",
         element: <Enterprises />,
       },
       {
-        path: "Capabilities/Wearable",
+        path: "Wearable",
         element: <Wearable />,
       },
       {
-        path: "Capabilities/Native",
+        path: "Native",
         element: <Native />,
       },
       
